@@ -18,10 +18,12 @@
 </head>
 <body>
   <h1>Rosa Maltese Design</h1>
-  <center>
   <img src="/immagini/logo.png">
-  </center>
 </body>
+<body>
+
+</body>
+
 <body>
   <h1>Box Model</h1>
   <p style="width:200px; height:100px; background-color:white; margin: 10px; border: 5px solid red; padding: 10px;">Box Model</p>
