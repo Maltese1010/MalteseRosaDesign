@@ -1,4 +1,23 @@
 <head>
+  <title>MalteseRosaPortfolio</title>
+  <style>
+    body {
+      background-color: red;
+    }
+
+    h1 {
+      color: black;
+      text-align: center;
+    }
+
+    p {
+      font-family: courier;
+      font-size: 24px;
+    }
+  </style>
+</head>
+
+<head>
 </head>
 <body>
 <style><img src="/immagini/logo.png>
