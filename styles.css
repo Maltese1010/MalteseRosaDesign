@@ -2,7 +2,7 @@
   <title>MalteseRosaPortfolio</title>
   <style>
     body {
-      background-color:red;
+      background-color:white;
     }
 
     h1 {
@@ -13,6 +13,7 @@
     p {
       font-family: courier;
       font-size: 24px;
+      text-align: center
     }
   </style>
 </head>
@@ -21,26 +22,6 @@
   <h1>Rosa Maltese Design</h1>
   <img src="/immagini/logo.png">
 </body>
-
-<style>
-    body {
-       background-color:#8d8fc1;
-    }
-    h1 {
-        color:black;
-        text-align: center;
-      }
-</style>
-
-<style>
-    th {
-       background-color:#8d8fc1;
-    }
-    h1 {
-        color:black;
-        text-align: center;
-      }
-</style>
 
 <body>
   <h1>Box Model</h1>
