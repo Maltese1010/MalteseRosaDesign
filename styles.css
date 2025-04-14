@@ -23,6 +23,36 @@
   <img src="/immagini/logo.png">
 </body>
 
+<style>
+    table {
+      width: 100%;
+    }
+
+    td,
+    th {
+      border: 1px solid black;
+    }
+
+    table.uno td {
+      padding: 10px;
+    }
+
+    table.due td {
+      padding: 100px;
+    }
+
+    th {
+      text-align: center;
+    }
+
+    tbody tr:hover {
+      background-color: red;
+    }
+
+    tr:nth-child(even) {
+      background-color: grey;
+    }
+  </style>
 <table class="uno">
 <thead>
   <tr>
