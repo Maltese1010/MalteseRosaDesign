@@ -23,7 +23,29 @@
   <img src="/immagini/logo.png">
 </body>
 
-<body>
-  <h1>Box Model</h1>
-  <p style="width:200px; height:100px; background-color:white; margin: 10px; border: 5px solid red; padding: 10px;">Box Model</p>
-</body>
+<table class="uno">
+<thead>
+  <tr>
+    <th>Colonna 1</th>
+    <th>Colonna 2</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Dato 1</td>
+    <td>Dato 2</td>
+  </tr>
+  <tr>
+    <td>Dato 1</td>
+    <td>Dato 2</td>
+  </tr>
+  <tr>
+    <td>Dato 1</td>
+    <td>Dato 2</td>
+  </tr>
+  <tr>
+    <td>Dato 1</td>
+    <td>Dato 2</td>
+  </tr>
+
+</tbody>
