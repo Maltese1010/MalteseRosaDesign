@@ -18,7 +18,7 @@
     img {
       max-width: 100%;
       height: auto;
-      margin-top: 20px;
+      margin-top: 30px;
 
     }
     nav.navbar {
@@ -29,7 +29,7 @@
     }
     
     nav.navbar ul {
-      list-style-type: none;
+      list-style: none;
       padding: 0;
       margin: 0;
       display: flex;
@@ -59,6 +59,7 @@
     .progetti:hover,
     .contatti:hover {
       font-weight: bold;
+      opacity: 0.9;
     }
 </style>
 <style>
@@ -73,6 +74,7 @@
   margin: 10px;
   transition: background-color 0.2s ease;
   text-align: center;
+  cursor: pointer;
 }
 .chi-sono {
   background-color: #8d8fc1;
