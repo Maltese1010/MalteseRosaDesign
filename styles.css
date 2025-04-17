@@ -17,12 +17,14 @@
       text-align: center;
       font-family: Arial, sans-serif;
       font-weight:bold;
+      font-size: 24px;
     }
 
     p {
       font-family: Arial, sans-serif;
       font-size: 24px;
       text-align: center;
+      text-decoration: shadow;
     }
 
     .logo {
@@ -104,7 +106,7 @@
 
     .contenitore {
       display: flex;
-      padding: 100px 10px;
+      padding: 80px 10px;
       align-items: center;
       gap: 20px;
       background-color: #8d8fc1;
