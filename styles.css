@@ -41,6 +41,7 @@
   .progetti:hover,
   .contatti:hover {
     font-weight: bold;
+    cursor: pointer;
   }
   </style>
 </head>
