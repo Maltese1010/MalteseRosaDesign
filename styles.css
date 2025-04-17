@@ -83,4 +83,26 @@
       padding: 60px 20px;
       text-align: center;
     }
-</style>
+
+    .contenuto-chi {
+      display: flex;
+      align-items: flex-start;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    
+    .immagine-chi {
+      max-width: 300px;
+      height: auto;
+      border-radius: 8px;
+    }
+    
+    .testo-chi {
+      flex: 1;
+      font-family: Arial, sans-serif;
+      font-size: 18px;
+      color: #000;
+      line-height: 1.6;
+    }
+
+    </style>
