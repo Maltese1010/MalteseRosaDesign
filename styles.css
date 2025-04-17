@@ -83,7 +83,7 @@
   font-family: Arial, sans-serif;
   border-radius: 8px;
   transition: background-color 0.2s ease;
-  }
+}
   
 .bottone:hover {
   background-color: #6e70a8;
@@ -110,10 +110,10 @@
     font-family: Arial, sans-serif;
     border-radius: 8px;
     transition: background-color 0.2s ease;
-    }
+  }
     
   .bottone:hover {
-    background-color: #6e70a8;
+    background-color: #e13a41;
     cursor: pointer;
   }
     </style>
@@ -137,10 +137,10 @@
       font-family: Arial, sans-serif;
       border-radius: 8px;
       transition: background-color 0.2s ease;
-      }
+    }
       
     .bottone:hover {
-      background-color: #6e70a8;
+      background-color: #91ba80;
       cursor: pointer;
     }
       </style>
