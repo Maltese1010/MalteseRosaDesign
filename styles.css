@@ -77,7 +77,7 @@
   display: inline-block;
   padding: 20px 50px;
   background-color: #8d8fc1;
-  color: white;
+  color: rgb(0, 0, 0);
   text-decoration: none;
   font-size: 18px;
   font-family: Arial, sans-serif;
@@ -90,3 +90,57 @@
   cursor: pointer;
 }
   </style>
+  <style>
+  .progetti {
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .bottone {
+    display: inline-block;
+    padding: 20px 50px;
+    background-color: #e13a41;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    border-radius: 8px;
+    transition: background-color 0.2s ease;
+    }
+    
+  .bottone:hover {
+    background-color: #6e70a8;
+    cursor: pointer;
+  }
+    </style>
+    <style>
+    .contatti {
+      color: rgb(0, 0, 0);
+      background-color: #ffffff;
+      font-family: Arial, sans-serif;
+      padding: 10px;
+      border-radius: 8px;
+      text-align: center;
+    }
+    
+    .bottone {
+      display: inline-block;
+      padding: 20px 50px;
+      background-color: #91ba80;
+      color: rgb(0, 0, 0);
+      text-decoration: none;
+      font-size: 18px;
+      font-family: Arial, sans-serif;
+      border-radius: 8px;
+      transition: background-color 0.2s ease;
+      }
+      
+    .bottone:hover {
+      background-color: #6e70a8;
+      cursor: pointer;
+    }
+      </style>
