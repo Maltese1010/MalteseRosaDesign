@@ -50,7 +50,7 @@
       font-size: 20px;
       color: black;
       text-decoration: none;
-      border-radius: 10px;
+      border-radius: 15px;
       transition: background-color 0.2s ease;
       text-align: center;
     }
@@ -84,33 +84,36 @@
       text-align: center;
     }
 
-    .contenuto-chi {
-      display: flex;
-      flex-direction: row;
-      align-items: flex-start;
-      gap: 40px;
-      flex-wrap: wrap;
+    .contenuto-chi-sono {
+      background-color: #8d8fc1;
+      padding: 20px;
+      border-radius: 8px;
+      max-width: 1200px;
+      margin: 0 auto;
+      box-sizing: border-box;
+    }
+
+    .contenuto-chi-sono h2 {
       text-align: center;
+      color: white;
+      margin-bottom: 20px;
     }
 
     .contenitore {
       display: flex;
-      align-items: flex-start;
+      flex-wrap: wrap;
       gap: 20px;
-      background-color: #8d8fc1;
-      border-radius: 2px;
+      align-items: flex-start;
     }
     
-    .immagine-chi {
-      max-width: 500px;
-      width: 40%;
+    .immagine-chi-sono {
+      flex: 1 1 40%;
       height: auto;
       border-radius: 1px;
     }
     
-    .testo-chi {
-      width: 40%;
-      flex: 1;
+    .testo-chi-sono {
+      flex: 1 1 55%;
       font-family: Arial, sans-serif;
       font-size: 18px;
       color: #000;
