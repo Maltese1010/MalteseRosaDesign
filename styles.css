@@ -46,7 +46,7 @@
 
     .bottone {
       display: inline-block;
-      padding: 100px 10px;
+      padding: 50px 100px;
       font-size: 20px;
       color: black;
       text-decoration: none;
@@ -97,7 +97,7 @@
 
     .contenitore {
       display: flex;
-      padding: 2000px 10px;
+      padding: 200px 10px;
       align-items: center;
       gap: 20px;
       background-color: #8d8fc1;
