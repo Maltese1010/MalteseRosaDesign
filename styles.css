@@ -104,16 +104,15 @@
     }
     
     .immagine-chi-sono {
+      max-width: 300px;
       height: auto;
-      border-radius: 1px;
     }
     
     .testo-chi-sono {
-      flex: 1 1 55%;
+      flex: 1;
       font-family: Arial, sans-serif;
-      font-size: 18px;
-      color: #000;
-      line-height: 1.6;
+      font-size: 16px;
+      line-height: 1.5;
     }
 
     </style>
