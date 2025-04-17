@@ -64,15 +64,6 @@
 </head>
 
 <style>
-.chi-sono {
-  color: rgb(0, 0, 0);
-  background-color: #ffffff;
-  font-family: Arial, sans-serif;
-  padding: 10px;
-  border-radius: 8px;
-  text-align: center;
-}
-
 .bottone {
   display: inline-block;
   padding: 12px 24px;
@@ -85,14 +76,24 @@
   transition: background-color 0.2s ease;
 }
 
-.chi {
+.chi-sono {
+  color: rgb(0, 0, 0);
+  font-family: Arial, sans-serif;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
   background-color: #8d8fc1;
 }
-.chi:hover {
+.chi-sono:hover {
   background-color: #6e70a8;
 }
 
 .progetti {
+  color: rgb(0, 0, 0);
+  font-family: Arial, sans-serif;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
   background-color: #e13a41;
 }
 .progetti:hover {
@@ -100,6 +101,11 @@
 }
 
 .contatti {
+  color: rgb(0, 0, 0);
+  font-family: Arial, sans-serif;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;;
   background-color: #91ba80;
 }
 .contatti:hover {
