@@ -93,6 +93,12 @@
       text-align: center;
     }
     
+    .contenitore {
+      display: flex;
+      align-items: flex-start;
+      gap: 20px;
+    }
+    
     .immagine-chi {
       max-width: 500px;
       width: 40%;
