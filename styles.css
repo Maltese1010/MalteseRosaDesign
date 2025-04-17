@@ -92,6 +92,15 @@
       flex-wrap: wrap;
       text-align: center;
     }
+    
+    .riquadro-rosso {
+      border: 2px solid red;
+      padding: 20px;
+      margin: 20px auto;
+      background-color: #fff;
+      max-width: 1200px;
+      box-sizing: border-box;
+    }
 
     .contenitore {
       display: flex;
