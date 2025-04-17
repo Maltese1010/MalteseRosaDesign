@@ -19,7 +19,7 @@
       max-width: 100%;
       height: auto;
       margin-top: 20px;
-      
+
     }
     nav.navbar {
       width: 100%;
@@ -62,3 +62,31 @@
     }
   </style>
 </head>
+
+<style>
+.chi-sono {
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+  font-family: Arial, sans-serif;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.bottone {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #8d8fc1;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  border-radius: 8px;
+  transition: background-color 0.2s ease;
+  }
+  
+.bottone:hover {
+  background-color: #6e70a8;
+  cursor: pointer;
+}
+  </style>
