@@ -53,6 +53,7 @@
       border-radius: 15px;
       transition: background-color 0.2s ease;
       text-align: center;
+      align-items:stretch;
     }
 
     .bottone.chi-sono {
