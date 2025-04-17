@@ -60,7 +60,8 @@
     .contatti:hover {
       font-weight: bold;
     }
-
+</style>
+<style>
 .bottone {
   display: inline-block;
   padding: 12px 24px;
@@ -71,42 +72,42 @@
   border-radius: 10px;
   margin: 10px;
   transition: background-color 0.2s ease;
+  text-align: center;
 }
-
 .chi-sono {
-  color: rgb(0, 0, 0);
+  background-color: #8d8fc1;
+  color: black;
   font-family: Arial, sans-serif;
   padding: 10px;
   border-radius: 8px;
   text-align: center;
-  background-color: #8d8fc1;
 }
 .chi-sono:hover {
   background-color: #6e70a8;
 }
-
 .progetti {
-  color: rgb(0, 0, 0);
+  background-color: #e13a41;
+  color: black;
   font-family: Arial, sans-serif;
   padding: 10px;
   border-radius: 8px;
   text-align: center;
-  background-color: #e13a41;
 }
 .progetti:hover {
   background-color: #b52e32;
 }
-
 .contatti {
-  color: rgb(0, 0, 0);
+  background-color: #91ba80;
+  color: black;
   font-family: Arial, sans-serif;
   padding: 10px;
   border-radius: 8px;
-  text-align: center;;
-  background-color: #91ba80;
+  text-align: center;
 }
 .contatti:hover {
   background-color: #6a9b58;
 }
-  </style>
-      </style>
+html {
+  scroll-behavior: smooth;
+}
+</style>
