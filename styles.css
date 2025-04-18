@@ -27,9 +27,19 @@
       text-shadow:2px;
     }
 
+    body, html {
+      height: 100%;
+      margin: 0;
+    }
+    
+    .contenitore-logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
     .logo {
-      display: block;
-      margin: 0 auto;
       max-width: 100%;
       height: auto;
       opacity: 0;
