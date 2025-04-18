@@ -9,7 +9,6 @@
   header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     padding: 20px 40px;
     background-color: #fff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -126,7 +125,7 @@
         text-align: left;
       }
     }
-    
+
     .contenitore2 {
       display: flex;
       padding: 50px 10px;
