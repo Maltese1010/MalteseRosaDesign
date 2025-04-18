@@ -37,7 +37,10 @@
     }
 
     .logo {
-      max-height: 60px;
+      width: 50%;
+      height: auto;
+      align-items: center;
+      transition: transform 0.3s ease;
     }
 
     .navbar {
