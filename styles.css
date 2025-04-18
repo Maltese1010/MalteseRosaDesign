@@ -32,13 +32,6 @@
       margin: 0;
     }
     
-    .contenitore-logo {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-    }
-
     .logo {
       max-width: 100%;
       height: auto;
