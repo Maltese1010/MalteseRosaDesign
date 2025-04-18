@@ -106,7 +106,7 @@
 
     .contenitore {
       display: flex;
-      padding: 60px 10px;
+      padding: 50px 10px;
       align-items: center;
       gap: 20px;
       background-color: #8d8fc1;
@@ -128,8 +128,8 @@
       line-height: 1.5;
     }
 
-    .testo-mission {
-      font-family: Arial, sans-serif;
+    .testo-mission-valori {
+      font-family: sans-serif;
       font-size: 16px;
     }
 
