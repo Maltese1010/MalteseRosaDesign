@@ -106,7 +106,7 @@
       text-align: center;
     }
 
-    .contenitore {
+    .contenitore1 {
       display: flex;
       padding: 50px 10px;
       align-items: center;
@@ -121,6 +121,13 @@
       align-items: center
     }
     
+    .contenitore2 {
+      display: flex;
+      padding: 50px 10px;
+      background-color: #1f238f;
+      border-radius: 40px;
+    }
+
     .testo-chi-sono {
       max-width: 30%;
       padding: 20px;
