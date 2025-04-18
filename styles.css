@@ -32,6 +32,8 @@
       margin: 0 auto;
       max-width: 100%;
       height: auto;
+      opacity: 0;
+      animation: fadeIn 1.5s ease-in forwards;
     }
 
     .navbar {
