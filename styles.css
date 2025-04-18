@@ -103,17 +103,30 @@
 
     .contenitore1 {
       display: flex;
-      padding: 50px 10px;
       align-items: center;
-      gap: 20px;
-      background-color: #8d8fc1;
+      justify-content: center;
+      gap: 30px;
+      padding: 40px;
     }
     
-    .immagine-chi-sono {
-      width: 50%;
-      height: auto;
-      align-items: center;
-      transition: transform 0.3s ease;
+    .immagine.sinistra {
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px;
+    }
+    
+    .immagine.destra {
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
+    }
+    .testo-centrale {
+      text-align: center;
+      max-width: 200px;
+    }
+    
+    .testo-centrale p {
+      font-size: 18px;
+      font-weight: bold;
+      margin: 0;
     }
     
     @media (max-width: 768px) {
