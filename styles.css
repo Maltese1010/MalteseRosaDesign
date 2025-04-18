@@ -27,34 +27,13 @@
       text-shadow:2px;
     }
 
-    body, html {
-      height: 100%;
-      margin: 0;
-    }
-
-    .contenitore-logo {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-    }
-
     .logo {
+      display: block;
+      margin: 0 auto;
       max-width: 100%;
       height: auto;
-      animation: fadeInOnce 3s ease-in-out forwards;
-    }
-
-    @keyframes fadeInOnce {
-      0% {
-        opacity: 0;
-      }
-      25% {
-        opacity: 1;
-      }
-      100% {
-        opacity: 1;
-      }
+      opacity: 0;
+      animation: fadeIn 1.5s ease-in forwards;
     }
 
     .navbar {
