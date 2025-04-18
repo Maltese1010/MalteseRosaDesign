@@ -114,13 +114,14 @@
     }
     
     .immagine-chi-sono {
-      max-width: 50%;
+      width: 50%;
       height: auto;
       align-items: center
     }
     
     .testo-chi-sono {
-      max-width: 30%
+      max-width: 30%;
+      padding: 20px;
       flex: 1;
       font-family: sans-serif;
       font-size: 16px;
