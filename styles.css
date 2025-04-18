@@ -96,16 +96,6 @@
       text-align: center;
     }
 
-    .contenuto-chi-sono {
-      background-color: #8d8fc1;
-      display: flex;
-      flex-direction: row;
-      align-items: flex-start;
-      gap: 40px;
-      flex-wrap: wrap;
-      text-align: center;
-    }
-
     .contenitore {
       display: flex;
       padding: 50px 10px;
