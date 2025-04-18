@@ -127,21 +127,5 @@
       position: relative;
       margin-left: 20px;
     }
-
-    .testo-mission-valori::after {
-      content: "";
-      position: absolute;
-      bottom: -3px; /* distanza dal testo */
-      left: 0;
-      height: 2px;
-      background-color: blue;
-      width: 0;
-      animation: underlineGrow 1s ease-out forwards;
-    }
     
-    @keyframes underlineGrow {
-      to {
-        width: 100%;
-      }
-
     </style>
