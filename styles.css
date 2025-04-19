@@ -135,11 +135,6 @@
       background-color: #6598a9;
     }
 
-    .contenitore3 {
-      display: flex;
-      padding: 50px 10px;
-      background-color: #1f8f7e;
-    }
 
     .testo-chi-sono {
       max-width: 30%;
@@ -206,6 +201,10 @@
       margin: 0;
       padding: 20px;
       background-color: #f9f9f9;
+    }
+
+    .contenitore3 {
+      background-color: #e13a41;
     }
     
     .galleria {
