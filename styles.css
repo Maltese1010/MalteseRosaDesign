@@ -286,7 +286,9 @@
     }
 
     input, textarea {
-      width: 100%;
+      width: 80%;
+      margin: 0 auto;
+      display: block;
       padding: 14px 18px;
       border: none;
       border-radius: 20px;
