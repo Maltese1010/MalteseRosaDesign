@@ -127,12 +127,12 @@
     .text-box h3 {
       margin-top: 0;
       margin-bottom: 10px;
-      color: #333;
+      color: #000000;
     }
 
     .text-box p {
       margin: 0;
-      color: #555;
+      color: #000000;
       line-height: 1.6;
     }
     
