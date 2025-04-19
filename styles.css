@@ -97,8 +97,6 @@
 
     .contenitore1 {
       display: flex;
-      margin-left: 5%;
-      margin-right: 5%;
       align-items: center;
       gap: 25px;
       padding: 80px 100px
@@ -108,13 +106,15 @@
     }
     .contenitore1 img {
       width: 50%;
+      margin-left: 5%;
       height: auto;
       object-fit: cover;
       border-radius: 15px;
     }
 
     .text-box {
-      background-color: #7a58a1;
+      margin-right: 5%;
+      background-color: #b09fc4;
       border-color: #6e70a8;
       box-shadow: inset 3px 3px 6px rgba(0, 0, 0, 0.08),
                   inset -3px -3px 6px rgba(255, 255, 255, 0.7);
