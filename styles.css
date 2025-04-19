@@ -106,7 +106,7 @@
     }
     .contenitore1 img {
       width: 50%;
-      height: 200px;
+      height: auto;
       object-fit: cover;
       border-radius: 15px;
     }
