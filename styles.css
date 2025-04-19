@@ -105,7 +105,7 @@
       background-color: #8d8fc1;
     }
     .contenitore1 img {
-      width: 200px;
+      width: 50%;
       height: 200px;
       object-fit: cover;
       border-radius: 15px;
@@ -113,7 +113,7 @@
 
     .text-box {
       background-color: #ffffff;
-      padding: 50px 100px;
+      width: 50%;
       border-radius: 20px;
       box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
       flex: 1;
