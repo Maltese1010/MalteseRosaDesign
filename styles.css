@@ -99,7 +99,6 @@
       display: flex;
       align-items: center;
       gap: 25px;
-      max-width: 900px;
       width: 100%;
       flex-wrap: wrap;
       background-color: #8d8fc1;
