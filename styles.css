@@ -98,8 +98,8 @@
     .contenitore1 {
       display: flex;
       align-items: center;
-      gap: 25px;
-      padding: 50px 100px
+      gap: 20px;
+      max-height:50 px
       width: 100%;
       flex-wrap: wrap;
       background-color: #8d8fc1;
