@@ -396,14 +396,13 @@
       align-items: center;
       background-color: white;
       padding: 10px;
-      border-radius: 10px;
     }
 
     .image-text img {
       width: 60px;
       height: 60px;
       margin-right: 15px;
-      border-radius: 50%;
+      border-radius: 0%;
     }
 
     .image-text span {
