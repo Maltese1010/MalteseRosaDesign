@@ -109,11 +109,10 @@
     }
     .contenitore1 img {
       width: 35%;
-      margin-left: 0%;
+      margin-left: 2%;
       height: auto;
-      margin: 0;
       object-fit: cover;
-      border-radius: 0px;
+      border-radius: 20px;
     }
 
     .text-box {
