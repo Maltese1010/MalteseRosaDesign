@@ -176,7 +176,7 @@
       margin: 0 auto;
       display: block;
       position: relative;
-      width: 60%;
+      width: 40%;
       text-align: center;
       padding-bottom: 10px;
       line-height: 1.5;
@@ -212,7 +212,7 @@
       color: #000000;
       text-align: left;
       display: inline-block;
-      width: 100%;
+      width: 40%;
     }
     
     .elenco-stilizzato li::before {
