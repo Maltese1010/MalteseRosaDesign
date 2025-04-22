@@ -109,6 +109,7 @@
       width: 35%;
       margin-left: 0%;
       height: auto;
+      margin: 0 auto;
       object-fit: cover;
       border-radius: 0px;
     }
@@ -153,7 +154,7 @@
     }
 
     .contenitore2 {
-      padding: 50px 10px;
+      padding: 40px 10px;
       background-color: #ace3f6;
     }
 
