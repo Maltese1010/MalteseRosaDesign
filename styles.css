@@ -178,7 +178,6 @@
       display: block;
       position: relative;
       width: 40%;
-      margin: 0 auto;
       text-align: center;
       padding-bottom: 10px;
       line-height: 1.5;
@@ -201,6 +200,7 @@
       font-family: sans-serif;
       font-size: 18px;
       max-width: 600px;
+      text-align: center;
     }
     
     .elenco-stilizzato li {
