@@ -100,6 +100,10 @@
       padding: 60px 20px;
       text-align: center;
     }
+    
+    .contenitore {
+      background-color: #000000;
+    }
 
     .contenitore1 {
       display: flex;
