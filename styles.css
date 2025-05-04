@@ -240,11 +240,11 @@
     }
 
     .contenitore3 {
-      background-color: #e13a41;
+      background-color: #205487;
     }
 
     .galleria {
-      background-color: #e13a41;
+      background-color: #205487;
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       gap: 20px;
