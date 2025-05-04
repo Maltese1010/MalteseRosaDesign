@@ -243,7 +243,6 @@
 
     .contenitore3 {
       background-color: #205487;
-      }
     }
 
     .galleria {
@@ -281,18 +280,18 @@
     .item p {
       margin-top: 10px;
       font-size: 14px;
-      color: #333;
+      color: #000000;
     }
 
     @media (max-width: 900px) {
       .galleria {
-        grid-template-columns: repeat(2, 1fr); /* 2 per riga */
+        grid-template-columns: repeat(2, 1fr);
       }
     }
 
     @media (max-width: 600px) {
       .galleria {
-        grid-template-columns: 1fr; /* 1 per riga */
+        grid-template-columns: 1fr;
       }
     }
     </style>
