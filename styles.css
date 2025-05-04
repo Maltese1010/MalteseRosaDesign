@@ -350,7 +350,7 @@
       outline: none;
       background-color: #e6f9f0;
       box-shadow: inset 2px 2px 6px rgba(0, 0, 0, 0.12),
-                  inset -2px -2px 6px rgba(255, 255, 255, 0.8);
+                  inset -2px -2px 6px rgba(199, 255, 194, 0.8);
     }
 
     textarea {
