@@ -36,6 +36,8 @@
       font-family: montserrat;
       font-size: 18px;
       text-align: center;
+      border-left:20%;
+      border: right 20%;    
     }
 
     .navbar {
