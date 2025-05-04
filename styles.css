@@ -16,8 +16,7 @@
     align-items: center;
     padding: 20px 40px;
     background-color: #000000;
-    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1); /* ombra chiara su sfondo scuro */
-  }
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
  
     h1 {
       color: #000000;
@@ -203,7 +202,7 @@
       transform: translateX(-50%);
       width: 40%; 
       height: 2px;
-      background-color: #205487;
+      background-color: #000000;
     }
 
     .elenco-stilizzato {
