@@ -193,7 +193,7 @@
       transform: translateX(-50%);
       width: 40%; 
       height: 2px;
-      background-color: #8d8fc1;
+      background-color: #205487;
     }
 
     .elenco-stilizzato {
@@ -212,7 +212,7 @@
       padding-left: 30px;
       margin-bottom: 15px;
       line-height: 1.5;
-      color: #000000;
+      color: #205487;
       text-align: left;
       display: block;
       margin-left: auto;
@@ -224,7 +224,7 @@
       content: "•";
       position: absolute;
       left: 0;
-      color: #8d8fc1;
+      color: #205487;
       font-size: 24px;
       line-height: 1.5;
     }
