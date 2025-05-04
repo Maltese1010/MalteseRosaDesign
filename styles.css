@@ -203,7 +203,7 @@
       transform: translateX(-50%);
       width: 40%; 
       height: 2px;
-      background-color: #205487;
+      background-color: #000000;
     }
 
     .elenco-stilizzato {
@@ -234,7 +234,7 @@
       content: "•";
       position: absolute;
       left: 0;
-      color: #205487;
+      color: #000000;
       font-size: 24px;
       line-height: 1.5;
     }
