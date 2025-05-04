@@ -102,9 +102,9 @@
     }
     
     .titolo1{
-      color:#8d8fc1
+      color:#8d8fc1;
     }
-    
+
     .contenitore {
       background-color: #000000;
       padding: 30px 10px;
@@ -251,6 +251,9 @@
       background-color: #f9f9f9;
     }
 
+    .titolo2{
+      color:#e13a41;
+    }
     .contenitore3 {
       background-color: #000000;
     }
