@@ -122,8 +122,8 @@
 
     .text-box {
       margin-right: 5%;
-      background-color:#8d8fc1;
-      border-color: #6e70a8;
+      background-color:#000000;
+      border-color: #010219;
       box-shadow: inset 3px 3px 6px rgba(0, 0, 0, 0.08),
                   inset -3px -3px 6px rgba(255, 255, 255, 0.7);
       width: 50%;
@@ -134,12 +134,12 @@
 
     .text-box h3 {
       margin-top: 5%;
-      color: #000000;
+      color: #ffffff;
     }
 
     .text-box p {
       margin: 0;
-      color: #000000;
+      color: #ffffff;
       line-height: 1;
       margin-bottom: 5%;
     }
