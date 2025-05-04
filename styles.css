@@ -16,31 +16,31 @@
     align-items: center;
     padding: 20px 40px;
     background-color: #000000;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    font-family: 'Montserrat', sans-serif;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1); /* ombra chiara su sfondo scuro */
   }
-  
+ 
     h1 {
-      color: rgb(255, 255, 255);
+      color: #ffffff;
       text-align: center;
       font-family: 'Montserrat', sans-serif;
     }
 
     h2 {
-      color: rgb(255, 255, 255);
+      color: #ffffff;
       text-align: center;
       font-family: 'Montserrat', sans-serif;
-      font-weight:bold;
+      font-weight: bold;
       font-size: 50px;
       margin-bottom: 40px;
     }
 
     p {
-      font-family: montserrat;
+      font-family: 'Montserrat', sans-serif;
       font-size: 18px;
       text-align: center;
-      border-left:30%;
-      border: right 30%;    
+      margin: 0 auto;
+      max-width: 70%;
+      color: #ffffff;
     }
 
     .navbar {
