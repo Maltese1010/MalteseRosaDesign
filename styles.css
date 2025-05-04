@@ -125,7 +125,7 @@
     }
     .contenitore1 img {
       width: 35%;
-      margin-left: 2%;
+      margin-left: 5%;
       height: auto;
       object-fit: cover;
       border-radius: 20px;
@@ -152,8 +152,6 @@
       line-height: 1;
       text-align: center;
       margin-bottom: 5%;
-      margin-left: 10%;
-      margin-right: 10%;
     }
     
     @media (max-width: 600px) {
