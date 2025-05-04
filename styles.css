@@ -139,7 +139,9 @@
       width: 50%;
       border-radius: 5px;
       box-shadow: 2 8px 20px rgba(0, 0, 0, 0.1);
-      flex: 1;
+      display: flex;
+      justify-content: center;   /* centra orizzontalmente */
+      align-items: center;       /* centra verticalmente */     
     }
 
     .text-box h3 {
@@ -305,7 +307,7 @@
       padding: 40px 10px;
       border-radius: 20px;
       box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-      width: 50%;
+      width: 100%;
       max-width: 600px;
       backdrop-filter: blur(10px);
       box-sizing: border-box;
