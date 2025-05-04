@@ -100,7 +100,11 @@
       padding: 60px 20px;
       text-align: center;
     }
-
+    
+    .titolo1{
+      color:#8d8fc1
+    }
+    
     .contenitore {
       background-color: #000000;
       padding: 30px 10px;
