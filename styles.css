@@ -103,6 +103,7 @@
     
     .titolo1{
       color:#8d8fc1;
+      font-size: 50px;
     }
 
     .contenitore {
@@ -243,6 +244,7 @@
 
     .titolo2{
       color:#e13a41;
+      font-size: 50px;
     }
     .contenitore3 {
       background-color: #000000;
@@ -377,7 +379,6 @@
       transform: translateY(-2px);
       box-shadow: 0 6px 18px rgba(40, 167, 69, 0.5);
     }
-
 
     .box-contatti {
       padding: 30px;
