@@ -300,13 +300,6 @@
       }
     }
 
-    body {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-      margin: 0; 
-    }
     .form {
       background-color: rgba(40, 167, 69, 0.4);
       padding: 40px 10px;
