@@ -66,7 +66,7 @@
       display: inline-block;
       padding: 30px 150px;
       font-size: 20px;
-      color: white;
+      color: rgb(0, 0, 0);
       text-decoration: none;
       border-radius: 5px;
       transition: background-color 0.3s ease;
@@ -82,11 +82,11 @@
     }
     
     .bottone.progetti {
-      background-color:#1d436a;
+      background-color:#e13a41;
     }
     
     .bottone.progetti:hover {
-      background-color:#205487;
+      background-color:#b52e32;
     }
     
     .bottone.contatti {
