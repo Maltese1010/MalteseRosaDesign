@@ -109,6 +109,7 @@
 
     .contenitore {
       background-color: #000000;
+      border-top: 5% ;
       width: 100%;
       
     }
