@@ -1,29 +1,32 @@
 <head>
   <title>MalteseRosaPortfolio</title>
   <style>
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
   body {
     margin: 0;
-    background-color: #d7d0c8;
+    background-color: #f1eee9;
+    font-family: 'Montserrat', sans-serif;
   }
 
   header {
     display: flex;
     align-items: center;
     padding: 20px 40px;
-    background-color: #fff;
+    background-color: #f1eee9;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-family: 'Montserrat', sans-serif;
   }
   
     h1 {
       color: black;
       text-align: center;
-      font-family: montserrat;
+      font-family: 'Montserrat', sans-serif;
     }
 
     h2 {
       color: black;
       text-align: center;
-      font-family: montserrat;
+      font-family: 'Montserrat', sans-serif;
       font-weight:bold;
       font-size: 50px;
       margin-bottom: 40px;
