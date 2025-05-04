@@ -147,7 +147,8 @@
       margin: 0;
       color: #ffffff;
       line-height: 1;
-      margin-bottom: 5%;
+      text-align: center;
+      margin-bottom: 5% ;
     }
     
     @media (max-width: 600px) {
@@ -168,9 +169,8 @@
 
     .contenitore2 {
       padding: 10px 10px;
-      background-color: #bba995;
+      background-color: #8d8fc1;
     }
-
 
     .testo-chi-sono {
       max-width: 30%;
