@@ -214,7 +214,7 @@
       padding-left: 30px;
       margin-bottom: 15px;
       line-height: 1.5;
-      color: #205487;
+      color: black;
       text-align: left;
       display: block;
       margin-left: auto;
@@ -243,6 +243,8 @@
 
     .contenitore3 {
       background-color: #205487;
+      padding: 20px 10px;
+      }
     }
 
     .galleria {
