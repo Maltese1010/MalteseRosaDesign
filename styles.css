@@ -3,7 +3,7 @@
   <style>
   body {
     margin: 0;
-    background-color: #f9f9f9;
+    background-color: #d7d0c8;
   }
 
   header {
@@ -380,7 +380,7 @@
     .box-contatti {
       padding: 30px;
       text-align: center;
-      background-color: #6a9b58;
+      background-color: #91ba80;
     }
 
     h1 {
@@ -406,7 +406,7 @@
     .image-text {
       display: flex;
       align-items: center;
-      background-color: white;
+      background-color: #91ba80;
       padding: 10px;
     }
 
