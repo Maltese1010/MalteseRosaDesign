@@ -302,6 +302,8 @@
 
     .form {
       background-color: rgba(40, 167, 69, 0.4);
+      justify-content: center;
+      align-items: center;
       padding: 40px 10px;
       border-radius: 20px;
       box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
