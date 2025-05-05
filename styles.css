@@ -277,12 +277,14 @@
     }
 
     .item {
-      width: 100px;
-      height: 600px;
-      object-fit: cover;
+      text-align: center;
+      font-family: 'Montserrat', sans-serif;
+      background: #fff;
+      width: 300px;
+      height: 500px;
       border-radius: 8px;
       transition: transform 0.3s ease;
-      background: white;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
     }
   
     .item img {
