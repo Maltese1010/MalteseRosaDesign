@@ -251,8 +251,8 @@
       position: absolute;
       left: 0;
       color: #000000;
-      font-size: 24px;
-      line-height: 2;
+      font-size: 18px;
+      line-height: 0.5;
     }
 
     .titolo2{
@@ -397,7 +397,7 @@
     .contenitore4 {
       font-size: 10px;
     }
-    
+
     .titoloambienti{
       font-size: 10px;
     }
