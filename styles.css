@@ -94,9 +94,13 @@
     }
     
     .bottone.contatti:hover {
-      bbackground:#007a76;
-
+      background:#007a76;
+    }
     
+    section {
+      padding: 60px 20px;
+      text-align: center;
+    }
     
     .titolo1{
       color:#66cac7;
