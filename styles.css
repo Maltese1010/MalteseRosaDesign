@@ -64,6 +64,7 @@
 
     .bottone {
       display: inline-block;
+      width: 33%;
       font-size: 20px;
       color: rgb(0, 0, 0);
       text-decoration: none;
