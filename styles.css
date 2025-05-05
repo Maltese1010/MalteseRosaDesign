@@ -329,6 +329,9 @@
     }
 
     .titoloambienti{
+      margin-right: 5%;
+      width: 50%;
+      flex: 1;
       font-size: 10px;
       color: white;
       height: 50px;
