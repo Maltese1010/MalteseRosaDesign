@@ -332,20 +332,19 @@
     }
 
     .titoloambienti{
-      margin-right: 5%;
-      width: 50%;
+      width: 65%;
       flex: 1;
       font-size: 10px;
       color: white;
       height: 50px;
     }
 
-   .immagineambienti{
-    width: 35%;
-    margin-left: 5%;
-    object-fit: cover;
-    border-radius: 20px;
-    }
+    .immagineambienti{
+      width: 35%;
+      margin-left: 5%;
+      object-fit: cover;
+      border-radius: 20px;
+      }
 
     .form {
       background-color: #007a76;
