@@ -56,7 +56,7 @@
     }
     
     .navbar li {
-      flex: 1; 
+      flex: 1; /* Ogni bottone occupa la stessa larghezza */
       padding: 0;
     }
     
@@ -67,34 +67,34 @@
       font-size: 20px;
       color: rgb(0, 0, 0);
       text-decoration: none;
-      border-radius: 0; 
-      transition: background-color 0.3s ease;
+      border-radius: 0;
+      transition: background 0.3s ease;
       text-align: center;
       box-sizing: border-box;
     }
     
     .bottone.chi-sono {
-      background-color: #8d8fc1;
+      background: linear-gradient(90deg, #8d8fc1 0%, #6e70a8 100%);
     }
     
     .bottone.chi-sono:hover {
-      background-color: #6e70a8;
+      background: linear-gradient(90deg, #6e70a8 0%, #8d8fc1 100%);
     }
     
     .bottone.progetti {
-      background-color: #e13a41;
+      background: linear-gradient(90deg, #e13a41 0%, #b52e32 100%);
     }
     
     .bottone.progetti:hover {
-      background-color: #b52e32;
+      background: linear-gradient(90deg, #b52e32 0%, #e13a41 100%);
     }
     
     .bottone.contatti {
-      background-color: #91ba80;
+      background: linear-gradient(90deg, #91ba80 0%, #6a9b58 100%);
     }
     
     .bottone.contatti:hover {
-      background-color: #6a9b58;
+      background: linear-gradient(90deg, #6a9b58 0%, #91ba80 100%);
     }
     section {
       padding: 60px 20px;
