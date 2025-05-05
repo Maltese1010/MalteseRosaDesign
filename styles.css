@@ -74,7 +74,7 @@
     }
     
     .bottone.chi-sono {
-      background: linear-gradient(180deg, #66cac7 0%, #007a76 70%, #013634 30%);
+      background: linear-gradient(180deg, #66cac7 0%, #007a76 100%);
     }
     
     .bottone.chi-sono:hover {
@@ -82,7 +82,7 @@
     }
     
     .bottone.progetti {
-      background: linear-gradient(180deg, #66cac7 0%, #007a76 70%, #013634 30%);
+      background: linear-gradient(180deg, #66cac7 0%, #007a76 100%);
     }
     
     .bottone.progetti:hover {
@@ -90,7 +90,7 @@
     }
     
     .bottone.contatti {
-      background: linear-gradient(180deg, #66cac7 0%, #007a76 70%, #013634 30%);
+      background: linear-gradient(180deg, #66cac7 0%, #007a76 100%);
     }
     
     .bottone.contatti:hover {
