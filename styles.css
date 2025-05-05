@@ -352,7 +352,7 @@
       padding: 14px 18px;
       border: none;
       border-radius: 20px;
-      font-size: 1em;
+      font-size: 10px;
       background: #f0f4f8;
       box-shadow: inset 3px 3px 6px rgba(0, 0, 0, 0.08),
                   inset -3px -3px 6px rgba(255, 255, 255, 0.7);
@@ -406,8 +406,8 @@
     }
 
    .immagineambienti{
-      width: 100%;
-      height: auto;
+      width: 60%;
+      height: 500px;
       display: block;
     }
 
