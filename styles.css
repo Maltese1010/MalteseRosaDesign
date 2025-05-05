@@ -171,8 +171,10 @@
       }
     }
 
-    .contenitore2 {
-      padding: 10px 10px;
+    .contenitore2-1 {
+      width: 100%;
+      border-left: 0;
+      border-right: 50%;
       background-color: #8d8fc1;
     }
 
