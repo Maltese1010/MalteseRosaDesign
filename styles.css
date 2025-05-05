@@ -402,8 +402,10 @@
       font-size: 10px;
     }
 
-    .immagineambienti{
-      padding: 600px 600px;
+   .immagineambienti{
+      width: 100%;
+      height: auto;
+      display: block;
     }
 
     .box-contatti {
