@@ -337,14 +337,8 @@
       font-size: 10px;
       color: white;
       height: 50px;
+      width: 10px;
     }
-
-    .immagineambienti{
-      width: 5px;
-      margin-left: 5%;
-      object-fit: cover;
-      border-radius: 20px;
-      }
 
     .form {
       background-color: #007a76;
