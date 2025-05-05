@@ -342,7 +342,6 @@
     .immagineambienti{
       width: 65%;
       margin-left: 5%;
-      height: 100px;
       object-fit: cover;
       border-radius: 20px;
       }
