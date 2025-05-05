@@ -174,7 +174,7 @@
     .contenitore2-1 {
       width: 50%;
       margin-right: 50%;
-      height:400px;
+      height:450px;
       background-color: #66cac7;
       padding: 20px;
       box-sizing: border-box;
@@ -183,7 +183,7 @@
     .contenitore2-2 {
       width: 50%;
       margin-left: 50%;
-      height: 400px;
+      height: 450px;
       background-color: #007a76;
       padding: 20px;
       box-sizing: border-box;
@@ -229,6 +229,7 @@
       font-size: 18px;
       max-width: 600px;
       text-align: center;
+      line-height: 0.5;
     }
     
     .elenco-stilizzato li {
