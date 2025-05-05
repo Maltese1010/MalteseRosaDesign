@@ -174,7 +174,7 @@
     .contenitore2-1 {
       width: 50%;
       margin-right: 50%;
-      height:500px;
+      height:400px;
       background-color: #66cac7;
       padding: 20px;
       box-sizing: border-box;
@@ -183,7 +183,7 @@
     .contenitore2-2 {
       width: 50%;
       margin-left: 50%;
-      height: 500px;
+      height: 400px;
       background-color: #007a76;
       padding: 20px;
       box-sizing: border-box;
@@ -319,6 +319,7 @@
 
     .form {
       background-color: rgba(40, 167, 69, 0.4);
+      margin-left: 33,33%;
       padding: 40px 10px;
       border-radius: 20px;
       box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
