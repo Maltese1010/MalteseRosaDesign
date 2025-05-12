@@ -148,6 +148,7 @@
 
     .text-box p {
       margin: 0 auto;
+      margin-bottom: 5px;
       color: #ffffff;
       line-height: 1.5;
     }
