@@ -330,7 +330,7 @@
 
     .split-container {
       display: flex;
-      height: 100vh; /* altezza piena della finestra */
+      height: 100vh;
     }
 
     .text-section, .image-section {
@@ -348,9 +348,10 @@
 
     .text-section h1{
       color: #ffffff;
-      transform: rotate(90deg);
+      transform: rotate(270deg);
       transform-origin: left top; 
       white-space: nowrap; 
+      font-size: 300px;
     }
 
     .image-section {
@@ -431,6 +432,7 @@
       cursor: pointer;
       box-shadow: 0 4px 15px #013634;
       transition: all 0.3s ease;
+      font-size: 20px;
     }
 
     button:hover {
