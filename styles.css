@@ -343,12 +343,16 @@
     }
 
     .text-section {
-      width: 50%;
+      width: 30%;
       text-align: center;
     }
 
+    .text-section h1{
+      color: #ffffff;
+    }
+
     .image-section {
-      width: 50%;
+      width: 70%;
     }
 
     .image-section img {
