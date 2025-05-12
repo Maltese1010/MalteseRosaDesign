@@ -345,6 +345,9 @@
     .text-section {
       width: 30%;
       text-align: center;
+      transform: rotate(90deg);
+      transform-origin: left top; 
+      white-space: nowrap; 
     }
 
     .text-section h1{
