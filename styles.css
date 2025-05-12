@@ -137,6 +137,7 @@
     .text-box {
       margin: 0 auto;
       margin-right: 5%;
+      padding: 5px;
       background-color:#000000;
       width: 50%;
       border-radius: 5px;
@@ -147,7 +148,6 @@
 
     .text-box p {
       margin: 0 auto;
-      margin-bottom: 10px;
       color: #ffffff;
       line-height: 1.5;
     }
@@ -173,7 +173,7 @@
       margin-right: 50%;
       height:auto;
       background-color: #66cac7;
-      padding: 20px;
+      padding: 10px;
       box-sizing: border-box;
     }
 
@@ -182,7 +182,7 @@
       margin-left: 50%;
       height: auto;
       background-color: #007a76;
-      padding: 20px;
+      padding: 10px;
       box-sizing: border-box;
     }
 
