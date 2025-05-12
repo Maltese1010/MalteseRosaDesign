@@ -129,7 +129,7 @@
     .contenitore1 img {
       width: 35%;
       margin-left: 5%;
-      height: auto;
+      height: 600px;
       object-fit: cover;
       border-radius: 20px;
     }
