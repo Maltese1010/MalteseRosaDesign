@@ -172,7 +172,7 @@
     .contenitore2-1 {
       width: 50%;
       margin-right: 50%;
-      height:450px;
+      height:auto;
       background-color: #66cac7;
       padding: 20px;
       box-sizing: border-box;
@@ -181,7 +181,7 @@
     .contenitore2-2 {
       width: 50%;
       margin-left: 50%;
-      height: 450px;
+      height: auto;
       background-color: #007a76;
       padding: 20px;
       box-sizing: border-box;
