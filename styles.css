@@ -135,13 +135,15 @@
     }
 
     .text-box {
+       margin: 0 auto;
       margin-right: 5%;
       background-color:#000000;
       border-color: #010219;
       width: 50%;
       border-radius: 5px;
-      box-shadow: 2 8px 20px rgba(0, 0, 0, 0.1);
+       box-shadow: 2px 8px 20px rgba(0, 0, 0, 0.1);
       flex: 1;
+      text-align: center; /* centra il testo all'interno */
     }
 
     .text-box h3 {
