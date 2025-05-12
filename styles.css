@@ -135,7 +135,7 @@
     }
 
     .text-box {
-       margin: 0 auto;
+      margin: 0 auto;
       margin-right: 5%;
       background-color:#000000;
       border-color: #010219;
@@ -143,19 +143,13 @@
       border-radius: 5px;
        box-shadow: 2px 8px 20px rgba(0, 0, 0, 0.1);
       flex: 1;
-      text-align: center; /* centra il testo all'interno */
-    }
-
-    .text-box h3 {
-      margin-top: 5%;
-      color: #ffffff;
+      text-align: center;
     }
 
     .text-box p {
-      margin: 5px;
+      margin: 0 auto;
       color: #ffffff;
       line-height: 1.5;
-      margin-bottom: 5%;
     }
     
     @media (max-width: 600px) {
