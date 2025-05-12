@@ -278,7 +278,7 @@
       text-align: center;
       font-family: 'Montserrat', sans-serif;
       background: #fff;
-      width: 400px;
+      width: 500px;
       height: 370px;
       border-radius: 1px;
       transition: transform 0.3s ease;
@@ -286,7 +286,7 @@
     }
   
     .item img {
-      width: 400px;
+      width: 500px;
       height: 300px;
       object-fit: cover;
       border-radius: 1px;
