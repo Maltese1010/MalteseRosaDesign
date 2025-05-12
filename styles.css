@@ -363,12 +363,12 @@
 
     .form {
       background-color: #007a76;
-      margin: 0 auto
+      margin-left: 33.33%;
       padding: 45px 10px;
       border-radius: 20px;
       box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
       width: 100%;
-      max-width: 600px;
+      max-width: 800px;
       backdrop-filter: blur(10px);
       box-sizing: border-box;
     }
