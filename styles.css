@@ -330,7 +330,7 @@
 
     .split-container {
       display: flex;
-      height: 50vh;
+      height: 100vh;
     }
 
     .text-section, .image-section {
