@@ -330,7 +330,7 @@
 
     .split-container {
       display: flex;
-      height: 100vh;
+      height: 50vh;
     }
 
     .text-section, .image-section {
@@ -351,7 +351,7 @@
       transform: rotate(270deg);
       transform-origin: left top; 
       white-space: nowrap; 
-      font-size: 300px;
+      font-size: 100px;
     }
 
     .image-section {
