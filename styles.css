@@ -181,13 +181,14 @@
       display: flex;
       width: 100%;
       flex-wrap: wrap;
+      font-family: "Helvetica", "Arial", sans-serif;
+      line-height: 1.6;
     }
 
     .contenitore2-1,
     .contenitore2-2,
     .contenitore2-3 {
       width: 33.33%;
-      height: auto;
       padding: 20px;
       box-sizing: border-box;
       color: #ffffff;
@@ -201,41 +202,62 @@
     .contenitore2-2 {
       background-color: #007a76;
     }
-
-    .testo-mission-valori {
-      font-family: sans-serif;
-      font-size: 20px;
-      margin: 0 auto 15px auto;
-      display: block;
-      position: relative;
-      width: 80%;
-      text-align: center;
-      padding-bottom: 10px;
-      line-height: 1.4;
-      font-weight: bold;
-      color: #000000;
-    }
-
-    .testo-mission-valori::after {
-      content: "";
-      position: absolute;
-      bottom: 0;
-      left: 50%; 
-      transform: translateX(-50%);
-      width: 40%; 
-      height: 2px;
-      background-color: #000000;
-    }
     
+    .testo-mission-valori {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .testo-mission-valori h2 {
+      font-size: 24px;
+      font-weight: bold;
+      margin: 0;
+      padding-bottom: 10px;
+      position: relative;
+      display: inline-block;
+    }
+
+    .testo-mission-valori h2::after {
+      content: "";
+      display: block;
+      width: 60%;      /* lunghezza linea */
+      height: 2px;
+      background: #000000;
+      margin: 8px auto 0 auto; /* spaziatura sotto titolo */
+    }
+  
     .contenitore2-1 p,
     .contenitore2-2 p,
     .contenitore2-3 p {
-      font-family: sans-serif;
+      font-size: 16px;
+      margin: 0 auto;
+      text-align: center;
+      max-width: 90%;
+    }
+    
+    .elenco-stilizzato {
+      list-style: none;
+      padding: 0;
+      margin: 0 auto;
+      max-width: 400px;
+      text-align: left;
+    }
+
+    .elenco-stilizzato li {
+      position: relative;
+      padding-left: 25px;
+      margin-bottom: 12px;
       font-size: 16px;
       line-height: 1.6;
-      text-align: center;
-      color: #000000; 
-      margin-top: 10px;
+      color: #ffffff;
+    }
+
+    .elenco-stilizzato li::before {
+      content: "•";
+      position: absolute;
+      color: #000000;
+      font-size: 18px;
+      line-height: 1;
     }
 
     .elenco-stilizzato {
