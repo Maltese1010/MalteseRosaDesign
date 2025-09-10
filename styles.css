@@ -186,7 +186,8 @@
     }
 
     .contenitore2-2 {
-      width: 66.6%;
+      width: 33.3%;
+      margin-right: 33.3%;
       height: auto;
       background-color: #007a76;
       padding: 10px;
@@ -194,7 +195,8 @@
     }
 
     .contenitore2-3 {
-      width: 99.9%;
+      width: 33.3%;
+      margin-right: 33.3%;
       height: auto;
       background-color: #007a76;
       padding: 10px;
