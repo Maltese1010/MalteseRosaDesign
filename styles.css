@@ -178,28 +178,27 @@
     }
 
     .contenitore2totale {
-  display: flex;
-  width: 100%;
-  flex-wrap: wrap;
-}
+      display: flex;
+      width: 100%;
+      flex-wrap: wrap;
+    }
 
-.contenitore2-1,
-.contenitore2-2,
-.contenitore2-3 {
-  width: 33.33%;
-  height: auto;
-  padding: 10px;
-  box-sizing: border-box;
-}
-
-.contenitore2-1 {
+    .contenitore2-1,
+    .contenitore2-2,
+    .contenitore2-3 {
+      width: 33.33%;
+      height: auto;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+    .contenitore2-1 {
   background-color: #66cac7;
-}
+    }
 
-.contenitore2-2,
-.contenitore2-3 {
-  background-color: #007a76;
-}
+    .contenitore2-2,
+    .contenitore2-3 {
+      background-color: #007a76;
+    }
 
     .testo-chi-sono {
       max-width: 100%;
@@ -219,18 +218,18 @@
       width: 80%;
       text-align: center;
       padding-bottom: 10px;
-      line-height: 0.5;
+      line-height: 1.5;   /* 🔹 corretto */
     }
 
     .testo-mission-valori::after {
-      content: "";
-      position: absolute;
-      bottom: 0;
-      left: 50%; 
-      transform: translateX(-50%);
-      width: 40%; 
-      height: 2px;
-      background-color: #000000;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%; 
+  transform: translateX(-50%);
+  width: 40%; 
+  height: 2px;
+  background-color: #000000;
     }
 
     .elenco-stilizzato {
@@ -241,30 +240,30 @@
       font-size: 18px;
       max-width: 600px;
       text-align: center;
-      line-height: 0.5;
+      line-height: 1.5;   /* 🔹 corretto */
     }
-    
+
     .elenco-stilizzato li {
       position: relative;
       font-size: 18px;
       padding-left: 30px;
       margin-bottom: 15px;
       line-height: 1.5;
-      color: rgb(255, 255, 255);
+      color: #ffffff;
       text-align: left;
       display: block;
       margin-left: auto;
       margin-right: auto;
       max-width: 400px;
     }
-    
+
     .elenco-stilizzato li::before {
-      content: "•";
-      position: absolute;
-      left: 0;
-      color: #000000;
-      font-size: 18px;
-      line-height: 0.5;
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #000000;
+  font-size: 18px;
+  line-height: 1;  /* 🔹 corretto */
     }
 
     .titolo2{
