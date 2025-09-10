@@ -234,7 +234,7 @@
       font-size: 16px;
       line-height: 1.6;
       text-align: center;
-      color: #ffffff; /* 🔹 testo leggibile sui background colorati */
+      color: #000000; 
       margin-top: 10px;
     }
 
@@ -254,7 +254,7 @@
       padding-left: 30px;
       margin-bottom: 15px;
       line-height: 1.6;
-      color: #000000; /* 🔹 lista leggibile sul bianco */
+      color: #000000;
       text-align: left;
       margin-left: auto;
       margin-right: auto;
@@ -265,8 +265,8 @@
       content: "•";
       position: absolute;
       left: 0;
-      color: #007a76; /* 🔹 pallini verdi in tinta con il design */
-      font-size: 20px;
+      color: #000000; 
+      font-size: 18px;
       line-height: 1;
     }
 
