@@ -15,7 +15,6 @@
     display: flex;
     align-items: center;
     padding: 20px 40px;
-    background-color: #000000;
     box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
   }
  
@@ -148,7 +147,7 @@
       margin: 0 auto;
       margin-right: 5%;
       padding: 5px;
-      background-color:#000000;
+      background-color:#80cbfd;
       width: 50%;
       border-radius: 5px;
        box-shadow: 2px 8px 20px rgba(0, 0, 0, 0.1);
