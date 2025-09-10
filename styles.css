@@ -75,7 +75,7 @@
     }
     
     .bottone.chi-sono {
-      background: linear-gradient(180deg, #66cac7 0%, #007a76 100%);
+      background: linear-gradient(180deg, #a0bca7 0%, #f1fff1 100%);
     }
     
     .bottone.chi-sono:hover {
@@ -83,7 +83,7 @@
     }
     
     .bottone.progetti {
-      background: linear-gradient(180deg, #66cac7 0%, #007a76 100%);
+      background: linear-gradient(180deg, #a0bca7 0%, #f1fff1 100%);
     }
     
     .bottone.progetti:hover {
@@ -91,7 +91,7 @@
     }
     
     .bottone.contatti {
-      background: linear-gradient(180deg, #66cac7 0%, #007a76 100%);
+      background: linear-gradient(180deg, #a0bca7 0%, #f1fff1 100%);
     }
     
     .bottone.contatti:hover {
@@ -104,7 +104,7 @@
     }
     
     .titolo1{
-      color:#66cac7;
+      color: #a0bca7
       font-size: 50px;
     }
 
