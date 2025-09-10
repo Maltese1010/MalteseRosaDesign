@@ -66,7 +66,7 @@
       width: 100%;
       padding: 33.33px 0;
       font-size: 20px;
-      color: rgb(0, 0, 0);
+      color:#a0bca7;
       text-decoration: none;
       border-radius: 0;
       transition: background 0.3s ease;
@@ -79,7 +79,7 @@
     }
     
     .bottone.chi-sono:hover {
-      background:#007a76;
+      background:#a0bca7;
     }
     
     .bottone.progetti {
@@ -87,7 +87,7 @@
     }
     
     .bottone.progetti:hover {
-      background:#007a76;
+      background:#a0bca7;
     }
     
     .bottone.contatti {
@@ -95,7 +95,7 @@
     }
     
     .bottone.contatti:hover {
-      background:#007a76;
+      background:#a0bca7;
     }
 
     section {
@@ -110,9 +110,12 @@
 
     .contenitore {
       background-color: #a0bca7;
-      width: 80%;
-      height: 80%;
-      background-position: center;
+      width: 100%;
+      height: 500px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
     }
 
     .contenitore1 {
