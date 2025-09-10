@@ -192,6 +192,11 @@
       padding: 20px;
       box-sizing: border-box;
       color: #ffffff;
+      display: flex;
+      flex-direction: column; 
+      justify-content: center; 
+      align-items: center;    
+      text-align: center;
     }
 
     .contenitore2-1,
