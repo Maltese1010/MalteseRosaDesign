@@ -188,12 +188,13 @@
     .contenitore2-3 {
       width: 33.33%;
       height: auto;
-      padding: 10px;
+      padding: 20px;
       box-sizing: border-box;
+      color: #ffffff;
     }
-    
+
     .contenitore2-1 {
-  background-color: #66cac7;
+      background-color: #66cac7;
     }
 
     .contenitore2-2,
@@ -201,47 +202,50 @@
       background-color: #007a76;
     }
 
-    .testo-chi-sono {
-      max-width: 100%;
-      padding: 20px;
-      flex: 1;
-      font-family: sans-serif;
-      font-size: 16px;
-      line-height: 1.5;
-    }
-
     .testo-mission-valori {
       font-family: sans-serif;
-      font-size: 18px;
-      margin: 0 auto;
+      font-size: 20px;
+      margin: 0 auto 15px auto;
       display: block;
       position: relative;
       width: 80%;
       text-align: center;
       padding-bottom: 10px;
-      line-height: 1.5;
+      line-height: 1.4;
+      font-weight: bold;
+      color: #000000;
     }
 
     .testo-mission-valori::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 50%; 
-  transform: translateX(-50%);
-  width: 40%; 
-  height: 2px;
-  background-color: #000000;
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 50%; 
+      transform: translateX(-50%);
+      width: 40%; 
+      height: 2px;
+      background-color: #000000;
+    }
+    
+    .contenitore2-1 p,
+    .contenitore2-2 p,
+    .contenitore2-3 p {
+      font-family: sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+      text-align: center;
+      color: #ffffff; /* 🔹 testo leggibile sui background colorati */
+      margin-top: 10px;
     }
 
     .elenco-stilizzato {
       list-style: none;
       padding: 0;
-      margin: 20px auto;
+      margin: 30px auto;
       font-family: sans-serif;
       font-size: 18px;
       max-width: 600px;
       text-align: center;
-      line-height: 1.5; 
     }
 
     .elenco-stilizzato li {
@@ -249,22 +253,21 @@
       font-size: 18px;
       padding-left: 30px;
       margin-bottom: 15px;
-      line-height: 1.5;
-      color: #ffffff;
+      line-height: 1.6;
+      color: #000000; /* 🔹 lista leggibile sul bianco */
       text-align: left;
-      display: block;
       margin-left: auto;
       margin-right: auto;
       max-width: 400px;
     }
 
     .elenco-stilizzato li::before {
-  content: "•";
-  position: absolute;
-  left: 0;
-  color: #000000;
-  font-size: 18px;
-  line-height: 1;  /* 🔹 corretto */
+      content: "•";
+      position: absolute;
+      left: 0;
+      color: #007a76; /* 🔹 pallini verdi in tinta con il design */
+      font-size: 20px;
+      line-height: 1;
     }
 
     .titolo2{
