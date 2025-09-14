@@ -259,8 +259,8 @@
 
     .elenco-stilizzato li::before {
       content: "•";
-      position: absolute;
-      color: #000000; 
+      position: relative;
+      color: #ffffff; 
       font-size: 18px;
       line-height: 1;
     }
