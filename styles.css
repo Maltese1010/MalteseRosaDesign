@@ -328,14 +328,14 @@
     }
 
     .contenitore3 {
-      background-color: #f1fff1;
+      background-color: #a0bca7;
       border-top: 5%;
       border-bottom: 5%;
       padding: 50px 15px;
     }
 
     .galleria {
-      background-color: #f1fff1;
+      background-color: #a0bca7;
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       gap: 20px;
@@ -348,7 +348,7 @@
     .item {
       text-align: center;
       font-family: 'Montserrat', sans-serif;
-      background: #fff;
+      background: #f1fff;
       width: 400px;
       height: 320px;
       border-radius: 1px;
