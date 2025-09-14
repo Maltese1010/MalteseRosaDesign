@@ -317,8 +317,8 @@
     }
 
     .contenitoreecodesign img {
-      max-width: 50px;
-      max-height: 50px;
+      max-width: 300px;
+      max-height: 300px;
       object-fit: contain;   
     }
 
