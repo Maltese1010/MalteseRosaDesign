@@ -390,6 +390,7 @@
       display: flex;
       width: 90%;
       height: 500px;
+      align-items: center;
     }
 
     .text-section1, 
@@ -430,6 +431,7 @@
       display: flex;
       width: 90%;
       height: 500px;
+      align-items: center;
     }
 
     .text-section2, 
@@ -479,7 +481,7 @@
       background-position: center;
       background-repeat: no-repeat;
     }
-    
+
   .form {
      background-color: #007a76;
      margin: 0 auto;
