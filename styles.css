@@ -441,12 +441,13 @@
 
      .split-container2 {
       display: flex;
+      flex-direction: row-reverse;
       width: 100%;
       height: 500px;
     }
 
     .text-section2, 
-    .image-section1 {
+    .image-section2 {
       display: flex;
       justify-content: center;
       align-items: center;
@@ -461,7 +462,7 @@
 
     .text-section2 h1 {
       color: #ffffff;
-      transform: rotate(-90deg);  
+      transform: rotate(90deg);  
       transform-origin: center;   
       white-space: nowrap;
       font-size: 4rem;             
