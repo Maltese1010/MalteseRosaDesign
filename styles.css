@@ -300,7 +300,7 @@
     .contenitoreecodesign {
       background-color: #ffffff;
       width: 100%;
-      height: 600px;
+      height: 800px;
       display: flex;
       flex-direction: column;    /* disposizione verticale */
       justify-content: center;   /* centra contenuto in verticale */
@@ -313,13 +313,13 @@
       font-size: 50px;
       font-weight: bold;     
       text-align: center;     
-      margin-bottom: 1rem;    /* spazio tra titolo e immagine */
+      margin-bottom: 1rem;   
     }
 
     .contenitoreecodesign img {
       max-width: 100%;
       max-height: 100%;
-      object-fit: contain;    /* mantiene proporzioni senza tagliare */
+      object-fit: contain;   
     }
 
     .titolo2{
@@ -399,41 +399,48 @@
       background-repeat: no-repeat;
     }
 
-    .split-container { 
-      display: flex;
-      height: 500px; 
-    } 
-      
-    .text-section, .image-section 
-    { background-color: #013634;
-       display: flex; 
-       justify-content: center; 
-       align-items: center; 
-       padding: 2rem; 
-    } 
-       
-    .text-section { 
-      width: 30%; 
-      text-align: center; 
-    } 
+    .split-container {
+  display: flex;
+  width: 100%;
+  height: 600px; /* puoi regolare l’altezza */
+}
 
-    .text-section h1 { 
-      color: #ffffff; 
-      transform: rotate(270deg); 
-      transform-origin: left top; 
-      white-space: nowrap; 
-      font-size: 100px; 
-    } 
+/* Sezioni comuni */
+.text-section, 
+.image-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
 
-    .image-section { 
-      width: 70%; 
-    } 
-      
-    .image-section img { 
-      max-width: 100%; 
-      max-height: 100%;
-      object-fit: contain;
-    }
+/* Testo a sinistra */
+.text-section {
+  width: 30%;
+  background-color: #013634;
+  text-align: center;
+}
+
+.text-section h1 {
+  color: #ffffff;
+  transform: rotate(-90deg);   /* equivalente a 270deg */
+  transform-origin: center;    /* ruota meglio dal centro */
+  white-space: nowrap;
+  font-size: 4rem;             /* proporzionato invece di 100px */
+  margin: 0;
+}
+
+/* Immagine a destra */
+.image-section {
+  width: 70%;
+  background-color: #013634;
+}
+
+.image-section img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;   /* riempie lo spazio senza deformare */
+}
 
   .form {
      background-color: #007a76;
