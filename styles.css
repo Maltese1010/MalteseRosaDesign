@@ -302,9 +302,9 @@
       width: 100%;
       height: 800px;
       display: flex;
-      flex-direction: column;    /* disposizione verticale */
-      justify-content: center;   /* centra contenuto in verticale */
-      align-items: center;       /* centra contenuto in orizzontale */
+      flex-direction: column;    
+      justify-content: center;   
+      align-items: center;     
       overflow: hidden;
     }
 
@@ -400,47 +400,43 @@
     }
 
     .split-container {
-  display: flex;
-  width: 100%;
-  height: 600px; /* puoi regolare l’altezza */
-}
+      display: flex;
+      width: 100%;
+      height: 500px;
+    }
 
-/* Sezioni comuni */
-.text-section, 
-.image-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 2rem;
-}
+    .text-section, 
+    .image-section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 2rem;
+    }
 
-/* Testo a sinistra */
-.text-section {
-  width: 30%;
-  background-color: #013634;
-  text-align: center;
-}
+    .text-section {
+      width: 30%;
+      background-color: #013634;
+      text-align: center;
+    }
 
-.text-section h1 {
-  color: #ffffff;
-  transform: rotate(-90deg);   /* equivalente a 270deg */
-  transform-origin: center;    /* ruota meglio dal centro */
-  white-space: nowrap;
-  font-size: 4rem;             /* proporzionato invece di 100px */
-  margin: 0;
-}
+    .text-section h1 {
+      color: #ffffff;
+      transform: rotate(-90deg);  
+      transform-origin: center;   
+      white-space: nowrap;
+      font-size: 4rem;             
+      margin: 0;
+    }
+    
+    .image-section {
+      width: 70%;
+      background-color: #013634;
+    }
 
-/* Immagine a destra */
-.image-section {
-  width: 70%;
-  background-color: #013634;
-}
-
-.image-section img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;   /* riempie lo spazio senza deformare */
-}
+    .image-section img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
 
   .form {
      background-color: #007a76;
