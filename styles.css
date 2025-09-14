@@ -181,7 +181,7 @@
       display: flex;
       width: 100%;
       flex-wrap: wrap;
-      font-family: "Helvetica", "Arial", sans-serif;
+      font-family: "sans-serif";
       line-height: 1.6;
     }
 
@@ -252,7 +252,7 @@
       position: relative;
       padding-left: 25px;
       margin-bottom: 12px;
-      font-size: 16px;
+      font-size: 18px;
       line-height: 1;
       color: #ffffff;
     }
@@ -281,7 +281,7 @@
       padding-left: 30px;
       margin-bottom: 15px;
       line-height: 1;
-      color: #000000;
+      color: #ffffff;
       text-align: left;
       margin-left: auto;
       margin-right: auto;
@@ -292,8 +292,8 @@
       content: "•";
       position: absolute;
       left: 0;
-      color: #000000; 
-      font-size: 18px;
+      color: #ffffff; 
+      font-size: 25px;
       line-height: 1;
     }
 
