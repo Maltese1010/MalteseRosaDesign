@@ -290,7 +290,7 @@
 
     .elenco-stilizzato li::before {
       content: "•";
-      position: absolute;
+      position: relative;
       left: 0;
       color: #ffffff; 
       font-size: 25px;
