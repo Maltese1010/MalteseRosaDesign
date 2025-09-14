@@ -321,14 +321,14 @@
     }
 
     .contenitore3 {
-      background-color: #66cac7;
+      background-color: #f1fff1;
       border-top: 5%;
       border-bottom: 5%;
       padding: 50px 15px;
     }
 
     .galleria {
-      background-color: #66cac7;
+      background-color: #f1fff1;
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       gap: 20px;
