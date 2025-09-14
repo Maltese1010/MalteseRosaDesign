@@ -385,19 +385,6 @@
         grid-template-columns: 1fr;
       }
     }
-    
-    .contenitore4 {
-      background-color: #ff7b02;
-      display: flex;
-      padding: 40px 10px;
-      align-items: center;
-      gap: 20px;
-      width: 100%;
-      flex-wrap: wrap;
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-    }
 
     .split-container1 {
       display: flex;
@@ -479,6 +466,20 @@
       object-fit: cover;
     }
 
+
+  .contenitore4 {
+      background-color: #ff7b02;
+      display: flex;
+      padding: 40px 10px;
+      align-items: center;
+      gap: 20px;
+      width: 100%;
+      flex-wrap: wrap;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    
   .form {
      background-color: #007a76;
      margin: 0 auto;
