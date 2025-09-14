@@ -441,7 +441,7 @@
 
   .form {
      background-color: #007a76;
-     margin-left: 25%;
+     margin: 0 auto;
      padding: 10px;
      border-radius: 20px;
      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
@@ -459,9 +459,8 @@
 
     label {
       display: block;
-      margin-top: 20px;
-      margin-bottom: 8px;
-      margin-left: 20%;
+      margin: 20px auto 8px auto;
+      width: 80%;
       font-weight: bold;
       color: #ffffff;
     }
