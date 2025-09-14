@@ -389,44 +389,36 @@
       background-repeat: no-repeat;
     }
 
-   .split-container {
+    .split-container { 
       display: flex;
-      height: 500px;
-    }
+      height: 500px; } 
+      
+    .text-section, .image-section 
+    { background-color: #013634;
+       display: flex; 
+       justify-content: center; 
+       align-items: center; 
+       padding: 2rem; } 
+       
+    .text-section { 
+      width: 30%; 
+      text-align: center; 
+    } 
 
-   .text-section, 
-   .image-section {
-      background-color: #013634;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: 2rem;
-    }
-
-   .text-section {
-      flex: 0 0 30%;   /* larghezza fissa al 30% */
-     text-align: center;
-    }
-
-   .text-section h1 {
-      color: #ffffff;
-      transform: rotate(-90deg);  /* -90° invece di 270°, più standard */
-      transform-origin: center;   /* il testo ruota dal centro */
-      white-space: nowrap;
-      font-size: 4rem;  /* più proporzionato rispetto ai 100px */
-      margin: 0;        /* evita spazi extra */
-    }
-
-  .image-section {
-      flex: 1;
-      background-color: transparent; 
-
-  .image-section img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover; 
-      border-radius: 8px; 
-  }
+    .text-section h1{ 
+      color: #ffffff; 
+      transform: rotate(270deg); 
+      transform-origin: left top; 
+      white-space: nowrap; 
+      font-size: 100px; } 
+    .image-section { 
+      width: 70%; 
+    } 
+      
+    .image-section img { 
+      max-width: 100%; 
+      max-height: 100%;
+      object-fit: contain;
 
   .form {
      background-color: #007a76;
