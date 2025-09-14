@@ -391,7 +391,7 @@
 
     .split-container {
       display: flex;
-      height: 100vh;
+      height: 500px;
     }
 
     .text-section, .image-section {
