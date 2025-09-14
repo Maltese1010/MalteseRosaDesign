@@ -390,7 +390,6 @@
       display: flex;
       width: 90%;
       height: 500px;
-      align-items: center;
     }
 
     .text-section1, 
@@ -431,7 +430,6 @@
       display: flex;
       width: 90%;
       height: 500px;
-      align-items: center;
     }
 
     .text-section2, 
