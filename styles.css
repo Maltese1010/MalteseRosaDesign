@@ -466,14 +466,14 @@
     }
 
     input, textarea {
-      width: 40%;
-      margin: 0 auto;
+      width: 80%;
+      margin: 0 auto 20px auto;
       display: block;
       padding: 14px 18px;
       border: none;
       border-radius: 20px;
-      font-size: 10px;
-      background: #f0f4f8;
+      font-size: 18px;
+      background: #f1fff1;
       box-shadow: inset 3px 3px 6px rgba(0, 0, 0, 0.08),
                   inset -3px -3px 6px rgba(255, 255, 255, 0.7);
       transition: all 0.3s ease;
@@ -494,7 +494,7 @@
     .button-wrapper {
       text-align: center;
       margin-top: 20px;
-      border-bottom: 20px;
+      margin-bottom: 20px;
     }
 
     button {
