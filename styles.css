@@ -469,7 +469,7 @@
     }
     
     .contenitore4 {
-      background-color: #f1fff1
+      background-color: #f1fff1;
       border-top: 5%;
       border-bottom: 5%;
       padding: 50px 15px;
@@ -537,7 +537,7 @@
     }
 
   .form {
-     background-color: #02aea8;
+     background-color: #007a76;
      margin: 0 auto;
      padding: 10px;
      border-radius: 20px;
