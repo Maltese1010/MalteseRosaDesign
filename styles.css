@@ -620,7 +620,7 @@
     }
     
      .box-contatti {
-      padding: auto;
+      padding: 20px;
       text-align: center;
       background-color: #ffffff;
     }
@@ -628,6 +628,7 @@
      .galleriacontatti {
       background-color: #a0bca7;
       display: grid;
+      grid-template-columns: repeat(3, 1fr);
       gap: 20px;
       max-width: 1200px;
       margin: 0 auto;
@@ -636,25 +637,26 @@
     }
 
     .itemcontatti {
-      text-align: center;
-      font-family: 'Montserrat', sans-serif;
+      font-family:sans-serif;
       background: #f1fff1;
-      width: 540px;
-      height: 432px;
-      border-radius: 1px;
+      border: 4px solid #000;      
+      border-radius: 8px;          
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2); 
+      overflow: hidden;            
+      text-align: center;
     }
   
     .itemcontatti img {
-      width: 540px;
-      height: 432px;
+      width: 100%;
+      aspect-ratio: 4 / 5;       
       object-fit: cover;
-      border-radius: 1px;
+      display: block;
     }
     
 
     .itemcontatti p {
-      margin-top: 20px;
-      font-size: 25px;
+      margin-top: 10px;
+      font-size: 20px;
       color: #000000;
     }
     </style>
