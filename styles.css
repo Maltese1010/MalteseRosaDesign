@@ -475,83 +475,7 @@
       padding: 50px 15px;
     }
 
-  .form {
-     background-color: #007a76;
-     margin: 0 auto;
-     padding: 10px;
-     border-radius: 20px;
-     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-     width: 100%;
-     max-width: 800px;
-     backdrop-filter: blur(10px);
-     box-sizing: border-box;
-    }
-    
-    .form h2 {
-      margin-bottom: 50px;
-      color: #ffffff;
-      text-align: center;
-    }
-
-    label {
-      display: block;
-      margin: 20px auto 8px auto;
-      width: 80%;
-      font-weight: bold;
-      color: #ffffff;
-    }
-
-    input, textarea {
-      width: 80%;
-      margin: 0 auto 20px auto;
-      display: block;
-      padding: 14px 18px;
-      border: none;
-      border-radius: 20px;
-      font-size: 18px;
-      background: #f1fff1;
-      box-shadow: inset 3px 3px 6px rgba(0, 0, 0, 0.08),
-                  inset -3px -3px 6px rgba(255, 255, 255, 0.7);
-      transition: all 0.3s ease;
-    }
-
-    input:focus, textarea:focus {
-      outline: none;
-      background-color: #e6f9f0;
-      box-shadow: inset 2px 2px 6px ,
-                  inset -2px -2px 6px #f1fff1;
-    }
-
-    textarea {
-      resize: vertical;
-      min-height: 120px;
-    }
-
-    .button-wrapper {
-      text-align: center;
-      margin-top: 20px;
-      margin-bottom: 20px;
-    }
-
-    button {
-      background-color: #ff7b02;
-      color: white;
-      padding: 10px;
-      font-size: 10px;
-      border-radius: 20px;
-      cursor: pointer;
-      box-shadow: 0 4px 15px #ff7b02;
-      transition: all 0.3s ease;
-      font-size: 20px;
-    }
-
-    button:hover {
-      background-color: #ff7b02;
-      transform: translateY(-2px);
-      box-shadow: 0 6px 18px #c86100;
-    }
-
-    .map-container {
+      .map-container {
       text-align: center;
       margin-top: 50px;
     }
@@ -630,5 +554,81 @@
     .image-text span {
       font-size: 16px;
     }
-  </style>
 
+  .form {
+     background-color: #007a76;
+     margin: 0 auto;
+     padding: 10px;
+     border-radius: 20px;
+     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+     width: 100%;
+     max-width: 800px;
+     backdrop-filter: blur(10px);
+     box-sizing: border-box;
+    }
+    
+    .form h2 {
+      margin-bottom: 50px;
+      color: #ffffff;
+      text-align: center;
+    }
+
+    label {
+      display: block;
+      margin: 20px auto 8px auto;
+      width: 80%;
+      font-weight: bold;
+      color: #ffffff;
+    }
+
+    input, textarea {
+      width: 80%;
+      margin: 0 auto 20px auto;
+      display: block;
+      padding: 14px 18px;
+      border: none;
+      border-radius: 20px;
+      font-size: 18px;
+      background: #f1fff1;
+      box-shadow: inset 3px 3px 6px rgba(0, 0, 0, 0.08),
+                  inset -3px -3px 6px rgba(255, 255, 255, 0.7);
+      transition: all 0.3s ease;
+    }
+
+    input:focus, textarea:focus {
+      outline: none;
+      background-color: #e6f9f0;
+      box-shadow: inset 2px 2px 6px ,
+                  inset -2px -2px 6px #f1fff1;
+    }
+
+    textarea {
+      resize: vertical;
+      min-height: 120px;
+    }
+
+    .button-wrapper {
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+    button {
+      background-color: #ff7b02;
+      color: white;
+      padding: 10px;
+      font-size: 10px;
+      border-radius: 20px;
+      cursor: pointer;
+      box-shadow: 0 4px 15px #ff7b02;
+      transition: all 0.3s ease;
+      font-size: 20px;
+    }
+
+    button:hover {
+      background-color: #ff7b02;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 18px #c86100;
+    }
+
+    </style>
