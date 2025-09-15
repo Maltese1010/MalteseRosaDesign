@@ -467,19 +467,12 @@
       height: 100%;
       object-fit: cover;
     }
-
-
-  .contenitore4 {
-      background-color: #ff7b02;
-      display: flex;
-      padding: 40px 10px;
-      align-items: center;
-      gap: 20px;
-      width: 100%;
-      flex-wrap: wrap;
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
+    
+    .contenitore4 {
+      background-color: #a0bca7;
+      border-top: 5%;
+      border-bottom: 5%;
+      padding: 50px 15px;
     }
 
   .form {
