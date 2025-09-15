@@ -622,11 +622,11 @@
      .box-contatti {
       padding: 20px;
       text-align: center;
-      background-color: #ffffff;
+      background-color: #ff7b02;
     }
 
      .galleriacontatti {
-      background-color: #a0bca7;
+      background-color: #ff7b02;
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       gap: 20px;
@@ -638,7 +638,7 @@
 
     .itemcontatti {
       font-family:sans-serif;
-      background: #f1fff1;
+      background: #ffffff;
       border: 4px solid #000;      
       border-radius: 8px;          
       box-shadow: 0 4px 12px rgba(0,0,0,0.2); 
@@ -657,6 +657,6 @@
     .itemcontatti p {
       margin-top: 10px;
       font-size: 20px;
-      color: #000000;
+      color: #a0bca7;
     }
     </style>
