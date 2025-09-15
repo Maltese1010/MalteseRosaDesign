@@ -469,7 +469,7 @@
     }
     
     .contenitore4 {
-      background-color: #a0bca7;
+      background-color: #f1fff1
       border-top: 5%;
       border-bottom: 5%;
       padding: 50px 15px;
@@ -514,13 +514,6 @@
     h1 {
       font-size: 36px;
       margin-bottom: 40px;
-    }
-
-    .container4 {
-      background-color: #f1fff1;
-      display: flex;
-      justify-content: center;
-      gap: 60px;
     }
 
     .colonna2 {
