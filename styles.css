@@ -517,6 +517,7 @@
     }
 
     .container4 {
+      background-color: #f1fff1;
       display: flex;
       justify-content: center;
       gap: 60px;
@@ -627,7 +628,6 @@
      .galleriacontatti {
       background-color: #a0bca7;
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
       gap: 20px;
       max-width: 1200px;
       margin: 0 auto;
@@ -645,7 +645,7 @@
     }
   
     .itemcontatti img {
-      width: 1080px;
+      width: 540px;
       height: 432px;
       object-fit: cover;
       border-radius: 1px;
