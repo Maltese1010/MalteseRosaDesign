@@ -537,12 +537,6 @@
       margin-bottom: 20px;
     }
 
-    .image-text {
-      display: flex;
-      align-items: center;
-      background-color: #91ba80;
-      padding: 15px 10px;
-    }
 
     .image-text img {
       width: 60px;
@@ -650,8 +644,6 @@
       width: 400px;
       height: 320px;
       border-radius: 1px;
-      transition: transform 0.3s ease;
-      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
     }
   
     .itemcontatti img {
@@ -659,7 +651,6 @@
       height: 250px;
       object-fit: cover;
       border-radius: 1px;
-      transition: transform 0.3s ease;
     }
     
     .itemcontatti:hover img {
