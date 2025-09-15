@@ -630,5 +630,45 @@
       transform: translateY(-2px);
       box-shadow: 0 6px 18px #c86100;
     }
+    
 
+     .galleriacontatti {
+      background-color: #a0bca7;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+
+    .itemcontatti {
+      text-align: center;
+      font-family: 'Montserrat', sans-serif;
+      background: #f1fff1;
+      width: 400px;
+      height: 320px;
+      border-radius: 1px;
+      transition: transform 0.3s ease;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    }
+  
+    .itemcontatti img {
+      width: 400px;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 1px;
+      transition: transform 0.3s ease;
+    }
+    
+    .itemcontatti:hover img {
+      transform: scale(1.2);
+    }
+
+    .itemcontatti p {
+      margin-top: 20px;
+      font-size: 25px;
+      color: #000000;
+    }
     </style>
