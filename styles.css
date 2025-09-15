@@ -511,12 +511,6 @@
       }
     }
 
-    .box-contatti {
-      padding: auto;
-      text-align: center;
-      background-color: #91ba80;
-    }
-
     h1 {
       font-size: 36px;
       margin-bottom: 40px;
@@ -624,6 +618,11 @@
       box-shadow: 0 6px 18px #c86100;
     }
     
+     .box-contatti {
+      padding: auto;
+      text-align: center;
+      background-color: #ffffff;
+    }
 
      .galleriacontatti {
       background-color: #a0bca7;
