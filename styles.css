@@ -639,21 +639,18 @@
       text-align: center;
       font-family: 'Montserrat', sans-serif;
       background: #f1fff1;
-      width: 400px;
-      height: 320px;
+      width: 1080px;
+      height: 864px;
       border-radius: 1px;
     }
   
     .itemcontatti img {
-      width: 400px;
-      height: 250px;
+      width: 1080px;
+      height: 864px;
       object-fit: cover;
       border-radius: 1px;
     }
     
-    .itemcontatti:hover img {
-      transform: scale(1.2);
-    }
 
     .itemcontatti p {
       margin-top: 20px;
