@@ -639,14 +639,14 @@
       text-align: center;
       font-family: 'Montserrat', sans-serif;
       background: #f1fff1;
-      width: 1080px;
-      height: 864px;
+      width: 540px;
+      height: 432px;
       border-radius: 1px;
     }
   
     .itemcontatti img {
       width: 1080px;
-      height: 864px;
+      height: 432px;
       object-fit: cover;
       border-radius: 1px;
     }
