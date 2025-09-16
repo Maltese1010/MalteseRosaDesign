@@ -199,7 +199,10 @@
       align-items: center; 
       text-align: center;
       min-height: 500px;
+      flex: 1;              /* 👈 ogni box prende lo stesso spazio */
+      min-width: 0;         /* 👈 evita che il contenuto forzi la larghezza */
     }
+
 
     .contenitore2-1,
     .contenitore2-3 { 
