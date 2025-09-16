@@ -633,7 +633,9 @@
     .itemicone {
       font-family:sans-serif;
       background:  #a5b586;
-      text-align: center;               
+      text-align: center;
+      display:grid;           
+      justify-items:center;               
     }
     
     .itemicone img {
@@ -648,6 +650,7 @@
     }
     
     .itemicone p {
+      margin-top: 10px;
       font-size: 20px;
       display: block;
       text-align: center;
@@ -656,8 +659,10 @@
     .itemicone p a {
       color: rgb(0, 0, 0);         
       text-decoration: none; 
-      font-weight: bold;  
-      display: inline-block;  
+      font-weight: bold; 
+      display:block; 
+      width:max-content;       
+      margin-inline:auto; 
     }
 
     .itemicone p a:hover {
