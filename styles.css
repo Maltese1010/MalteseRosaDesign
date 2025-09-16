@@ -246,7 +246,10 @@
     .elenco-stilizzato {
       list-style: none;
       padding: 0;
-      margin: 0 auto;
+      margin: 20px auto 0 auto;              /* stessa distanza dal titolo */
+      font-family: sans-serif; 
+      font-size: 18px;                       /* stessa grandezza */
+      line-height: 1.8;                      /* stessa distanza tra le righe */
       max-width: 400px;
       text-align: left;
     }
