@@ -336,7 +336,8 @@
 
     .galleria {
       background-color: #a0bca7;
-      display: grid;
+      display: flex;
+      justify-content: center;
       grid-template-columns: repeat(3, 1fr);
       gap: 20px;
       max-width: 1200px;
