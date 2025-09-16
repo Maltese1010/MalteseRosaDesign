@@ -8,7 +8,7 @@
     margin: 0;
     padding: 0;
     color: #f1fff1;
-    font-family: 'Montserrat';
+    font-family: 'sans-serif';
   }
 
   header {
@@ -22,6 +22,7 @@
       text-align: center;
       font-family: 'Montserrat';
       font-size: 50px;
+      margin: 0;
     }
 
     h2 {
