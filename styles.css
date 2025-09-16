@@ -673,10 +673,8 @@
 
     .itemicone {
       font-family:sans-serif;
-      background:  #ffd8b4;
-      border: 16px solid #000;               
+      background:  #ffd8b4;               
     }
-  
     
     .itemicone img {
       width: 80%;                
@@ -689,7 +687,6 @@
       box-shadow: 0 4px 12px rgba(0,0,0,0.2);
     }
     
-
     .itemicone p {
       margin-top: 10px;
       font-size: 20px;
