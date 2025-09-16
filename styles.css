@@ -650,14 +650,15 @@
     .itemicone p {
       margin-top: 10px;
       font-size: 25px;
-      display: inline-block;
+      display: block;
       text-align: center;
     }
 
     .itemicone p a {
       color: rgb(0, 0, 0);         
       text-decoration: none; 
-      font-weight: bold;    
+      font-weight: bold;  
+      display: inline-block;  
     }
 
     .itemicone p a:hover {
