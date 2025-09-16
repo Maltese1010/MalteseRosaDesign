@@ -631,7 +631,8 @@
 
     .itemicone {
       font-family:sans-serif;
-      background:  #a5b586;               
+      background:  #a5b586;
+      text-align: center;               
     }
     
     .itemicone img {
@@ -646,6 +647,8 @@
     }
     
     .itemicone p {
+      color: orange;         
+      text-decoration: none;
       margin-top: 10px;
       font-size: 20px;
       color: #a0bca7;
