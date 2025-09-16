@@ -242,7 +242,6 @@
       margin-right: auto;
     }
 
-
     .elenco-stilizzato {
       list-style: none;
       padding: 0;
@@ -253,22 +252,22 @@
       text-align: left;
     }
 
-  .elenco-stilizzato li {
-    position: relative;
-    padding-left: 1.2em;
-    margin-bottom: 12px;
-    color: #ffffff;
-  }
+    .elenco-stilizzato li {
+      position: relative;
+      padding-left: 1.2em;
+      margin-bottom: 12px;
+      color: #ffffff;
+    }
 
-  .elenco-stilizzato li::before {
-    content: "•";
-    position: absolute;
-    left: 0;
-    top: 0.1em;
-    color: #ffffff; 
-    font-size: 1em;
-    line-height: 1;
-  }
+    .elenco-stilizzato li::before {
+      content: "•";
+      position: absolute;
+      left: 0;
+      top: 0.1em;
+      color: #ffffff; 
+      font-size: 1em;
+      line-height: 1;
+    }
 
     .contenitoreecodesign {
       background-color: #ffffff;
