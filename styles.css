@@ -243,6 +243,7 @@
       max-width: 90%;
       margin-left: auto;      /* centratura orizzontale */
       margin-right: auto;
+      margin-top: 20px;
     }
     
     .elenco-stilizzato {
