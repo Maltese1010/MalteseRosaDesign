@@ -178,7 +178,8 @@
     }
 
     .contenitore2totale {
-      display: flex;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
       width: 100%;
       flex-wrap: wrap;
       font-family: sans-serif;
@@ -200,7 +201,6 @@
       text-align: center;
       min-height: 500px;
     }
-
 
     .contenitore2-1,
     .contenitore2-3 { 
@@ -466,7 +466,7 @@
       padding: 50px 15px;
     }
 
-      .map-container {
+    .map-container {
       text-align: center;
       margin-top: 50px;
     }
