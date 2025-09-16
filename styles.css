@@ -652,15 +652,13 @@
     }
 
     .itemicone p a {
-      color: orange;         
+      color: rgb(0, 0, 0);         
       text-decoration: none; 
       font-weight: bold;    
     }
 
     .itemicone p a:hover {
        ext-decoration: underline;
-    }
-      
     }
 
      .box-contatti {
@@ -697,11 +695,25 @@
       display: block;
     }
     
-
     .itemcontatti p {
       margin-top: 10px;
       font-size: 20px;
       color: #a0bca7;
+    }
+
+     .itemcontatti p {
+      margin-top: 10px;
+      font-size: 20px;
+    }
+
+    .itemcontatti p a {
+      color: rgb(0, 0, 0);         
+      text-decoration: none; 
+      font-weight: bold;    
+    }
+
+    .itemcontatti p a:hover {
+       ext-decoration: underline;
     }
 
     </style>
