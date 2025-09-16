@@ -124,7 +124,6 @@
 
     .contenitore1 {
       display: flex;
-      padding: auto;
       align-items: center;
       gap: 20px;
       width: 100%;
