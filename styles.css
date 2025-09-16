@@ -235,16 +235,14 @@
     .contenitore2-1 p,
     .contenitore2-2 p,
     .contenitore2-3 p {
-      font-family: sans-serif; 
-      font-size: 18px;                        
-      line-height: 1.8;                       
-      margin-top: 20px;                       
-      margin-bottom: 0;
-      text-align: center;     /* testo centrato */
+      margin-top: 20px;      /* stessa distanza dal titolo */
+      font-size: 18px;
+      line-height: 1.8;
+      font-family: sans-serif;
+      text-align: center;    /* 👈 centra anche la lista */
       max-width: 90%;
-      margin-left: auto;      /* centratura orizzontale */
+      margin-left: auto;
       margin-right: auto;
-      margin-top: 20px;
     }
 
     .contenitore2-1 p,
