@@ -177,34 +177,39 @@
       }
     }
 
-  .contenitore2totale {
-    display: flex;
-    width: 100%;
-    flex-wrap: wrap;
-    font-family: sans-serif;
-    line-height: 1.8;
-  }
+    .contenitore2totale {
+      display: flex;
+      width: 100%;
+      flex-wrap: wrap;
+      font-family: sans-serif;
+      line-height: 1.8;
+       align-items: stretch;
+    }
 
-   .contenitore2-1,
-   .contenitore2-2,
-  .contenitore2-3 {
-    width: 33.33%;
-    padding: 20px;
-    box-sizing: border-box;
-    color: #ffffff; 
-    display: flex;
-    flex-direction: column; 
-    justify-content: flex-start; /* titoli in alto */
-    align-items: center; 
-    text-align: center;
-    min-height: 500px;
-  }
+    .contenitore2-1,
+    .contenitore2-2,
+    .contenitore2-3 {
+      width: 33.33%;
+      padding: 20px;
+      box-sizing: border-box;
+      color: #ffffff; 
+      display: flex;
+      flex-direction: column; 
+      justify-content: flex-start; /* titoli in alto */
+      align-items: center; 
+      text-align: center;
+      min-height: 500px;
+    }
 
-  .contenitore2-1,
-  .contenitore2-3 { background-color: #ffcb8d; }
-  .contenitore2-2 { background-color: #ff7b02; }
+    .contenitore2-1,
+    .contenitore2-3 { 
+      background-color: #ffcb8d; 
+    }
 
-/* Titoli */
+    .contenitore2-2 { 
+      background-color: #ff7b02; 
+    }
+
   .testo-mission-valori h2 {
     font-size: 32px;
     font-weight: bold;
