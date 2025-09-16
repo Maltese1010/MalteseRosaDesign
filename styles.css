@@ -178,26 +178,26 @@
     }
 
     .contenitore2totale {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      width: 100%;
-      font-family: sans-serif;
-      line-height: 1.8;
-    }
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 colonne uguali */
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  line-height: 1.8;
+}
 
-    .contenitore2-1,
-    .contenitore2-2,
-    .contenitore2-3 {
-      padding: 20px;
-      box-sizing: border-box;
-      color: #ffffff; 
-      display: flex;
-      flex-direction: column; 
-      justify-content: flex-start; 
-      align-items: center; 
-      text-align: center;
-      min-height: 500px;
-    }
+.contenitore2-1,
+.contenitore2-2,
+.contenitore2-3 {
+  padding: 20px;
+  box-sizing: border-box;
+  min-height: 500px;
+  color: #ffffff;
+  text-align: center;
+}
 
     .contenitore2-1,
     .contenitore2-3 { 
