@@ -633,9 +633,9 @@
     .itemicone {
       font-family:sans-serif;
       background:  #a5b586;
-      text-align: center;
-      display:grid;           
-      justify-items:center;               
+      display: flex;            
+      flex-direction: column;     
+      align-items: center;                  
     }
     
     .itemicone img {
