@@ -183,13 +183,15 @@
       flex-wrap: wrap;
       font-family: sans-serif;
       line-height: 1.8;
+      flex-wrap: nowrap;
     }
 
     .contenitore2-1,
     .contenitore2-2,
     .contenitore2-3 {
-      width: 33.33%;
+      max-width: 33.33%;
       padding: 20px;
+      flex: 0 0 33.33%;
       box-sizing: border-box;
       color: #ffffff; 
       display: flex;
