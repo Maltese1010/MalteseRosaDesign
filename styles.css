@@ -177,7 +177,7 @@
       }
     }
 
-    .contenitore2totale {
+  .contenitore2totale {
   display: flex;
   width: 100%;
   flex-wrap: wrap;
