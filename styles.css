@@ -239,7 +239,7 @@
     }
 
     .elenco-stilizzato {
-      list-style: none;
+      list-style: disc inside;
       padding: 0;
       margin-top: 30px;     
       font-size: 20px;          
