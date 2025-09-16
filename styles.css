@@ -208,23 +208,19 @@
       background-color: #ff7b02;
     }
     
-    .contenitore2-1 h2,
-    .contenitore2-2 h2,
-    .contenitore2-3 h2 {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 28px;
-      font-weight: bold;
-      text-align: center;
-      margin: 0 0 15px 0;        /* stesso margine per tutti */
-      border-bottom: 2px solid #000;
-      padding-bottom: 5px;
-    }
-
     .testo-mission-valori {
       text-align: center;
       margin-bottom: 20px;
     }
 
+    .testo-mission-valori h2 {
+      font-size: 30px;
+      font-weight: bold;
+      margin: 0;
+      padding-bottom: 10px;
+      position: relative;
+      display: inline-block;
+    }
 
     .testo-mission-valori h2::after {
       content: "";
@@ -656,7 +652,6 @@
     .itemicone p {
       margin-top: 10px;
       font-size: 20px;
-      width: 100%;
       text-align: center;
     }
 
