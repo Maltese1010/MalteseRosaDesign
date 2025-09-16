@@ -194,10 +194,11 @@
       color: #ffffff; 
       display: flex;
       flex-direction: column; 
-      justify-content: flex-start;
+      justify-content: flex-start;  /* titolo in alto */
       align-items: center; 
       text-align: center;
       min-height: 500px;
+      position: relative;
     }
 
     .contenitore2-1,
@@ -264,16 +265,16 @@
 
     .elenco-stilizzato li {
       position: relative;
-      padding-left: 1.2em;   /* spazio per il pallino */
+      padding-left: 1.2em;   
       margin-bottom: 12px;
       color: #ffffff;
     }
 
     .elenco-stilizzato li::before {
       content: "•";
-      position: absolute;    /* pallino “vero” */
+      position: absolute;   
       left: 0;
-      top: 0.1em;            /* micro allineamento verticale */
+      top: 0.1em;            
       font-size: 1em;
       line-height: 1;
     }
