@@ -198,7 +198,6 @@
       align-items: center; 
       text-align: center;
       min-height: 500px;
-      flex: 1;              /* 👈 ogni box prende lo stesso spazio */
     }
 
 
