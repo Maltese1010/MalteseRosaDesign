@@ -257,10 +257,11 @@
     }
 
     .elenco-stilizzato li {
-      position: relative;
-      padding-left: 25px;
-      margin-bottom: 12px;
-      color: #ffffff;
+       position: relative;
+       padding-left: 0;          /* tolto rientro forzato */
+       margin-bottom: 12px;
+       color: #ffffff;
+       text-align: center;       /* centra ogni voce */
     }
 
     .elenco-stilizzato li::before {
