@@ -183,7 +183,7 @@
       flex-wrap: wrap;
       font-family: sans-serif;
       line-height: 1.8;
-      flex-wrap: nowrap;
+      grid-template-columns: repeat(3, 1fr);
     }
 
     .contenitore2-1,
