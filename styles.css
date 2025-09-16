@@ -652,7 +652,7 @@
     .itemicone p {
       margin-top: 10px;
       font-size: 20px;
-      display: block;
+      width: 100%;
       text-align: center;
     }
 
