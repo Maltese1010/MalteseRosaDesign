@@ -252,6 +252,12 @@
       margin-top: 20px;              /* stessa distanza dal titolo */
     }
     
+    .contenitore2-1 p:first-of-type,
+    .contenitore2-2 p:first-of-type,
+    .contenitore2-3 .elenco-stilizzato {
+    margin-top: 30px;   /* 👈 stessa distanza per tutti */
+    }
+
     .elenco-stilizzato {
       list-style: none;
       padding: 0;
