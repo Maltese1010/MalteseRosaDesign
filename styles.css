@@ -183,7 +183,6 @@
       flex-wrap: wrap;
       font-family: sans-serif;
       line-height: 1.8;
-      flex-wrap: nowrap;
     }
 
     .contenitore2-1,
@@ -200,7 +199,6 @@
       text-align: center;
       min-height: 500px;
       flex: 1;              /* 👈 ogni box prende lo stesso spazio */
-      min-width: 0;         /* 👈 evita che il contenuto forzi la larghezza */
     }
 
 
@@ -268,6 +266,26 @@
       font-size: 1em;
       line-height: 1;
     }
+
+  @media (max-width: 768px) {
+    .contenitore2totale {
+      flex-wrap: wrap;       /* consente di andare a capo */
+      flex-direction: column;
+    }
+    .contenitore2-1,
+    .contenitore2-2,
+    .contenitore2-3 {
+      width: 100%;           /* occupano tutta la riga */
+      min-height: auto;      /* altezza dinamica */
+      align-items: center;   /* centra i contenuti su mobile */
+      text-align: center;
+    }
+    .contenitore2-1 p,
+    .contenitore2-2 p,
+    .elenco-stilizzato {
+      text-align: center;    /* testi centrati su mobile */
+    }
+  }
 
     .contenitoreecodesign {
       background-color: #ffffff;
