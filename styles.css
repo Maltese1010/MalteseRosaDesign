@@ -181,10 +181,8 @@
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       width: 100%;
-      flex-wrap: wrap;
       font-family: sans-serif;
       line-height: 1.8;
-      grid-template-columns: repeat(3, 1fr);
     }
 
     .contenitore2-1,
