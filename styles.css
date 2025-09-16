@@ -235,21 +235,23 @@
     .contenitore2-2 p,
     .contenitore2-3 p {
       font-family: sans-serif; 
-      font-size: 18px;                        /* stessa grandezza */
-      line-height: 1.8;                       /* stessa distanza tra le righe */
-      margin-top: 20px;                       /* stessa distanza dal titolo */
+      font-size: 18px;                        
+      line-height: 1.8;                       
+      margin-top: 20px;                       
       margin-bottom: 0;
-      text-align: center;
+      text-align: center;     /* testo centrato */
       max-width: 90%;
+      margin-left: auto;      /* centratura orizzontale */
+      margin-right: auto;
     }
     
     .elenco-stilizzato {
       list-style: none;
       padding: 0;
-      margin: 20px auto 0 auto;              /* stessa distanza dal titolo */
+      margin: 20px auto 0 auto;              
       font-family: sans-serif; 
-      font-size: 18px;                       /* stessa grandezza */
-      line-height: 1.8;                      /* stessa distanza tra le righe */
+      font-size: 18px;                       
+      line-height: 1.8;                      
       max-width: 400px;
       text-align: left;
     }
