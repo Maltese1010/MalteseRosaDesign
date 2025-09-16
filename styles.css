@@ -647,11 +647,20 @@
     }
     
     .itemicone p {
-      color: orange;         
-      text-decoration: none;
-      margin-top: 10px;
-      font-size: 20px;
-      color: #a0bca7;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.itemicone p a {
+  color: orange;         /* link arancione */
+  text-decoration: none; /* senza sottolineatura */
+  font-weight: bold;     /* evidenziato */
+}
+
+.itemicone p a:hover {
+  text-decoration: underline; /* sottolinea al passaggio del mouse */
+}
+      
     }
 
      .box-contatti {
