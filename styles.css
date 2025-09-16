@@ -246,6 +246,13 @@
       margin-right: auto;
       margin-top: 20px;
     }
+
+    .contenitore2-1 p,
+    .contenitore2-2 p,
+    .contenitore2-3 p,
+    .elenco-stilizzato {
+      margin-top: 20px;              /* stessa distanza dal titolo */
+    }
     
     .elenco-stilizzato {
       list-style: none;
