@@ -653,8 +653,15 @@
       color: #a0bca7;
     }
 
-    .galleriaicone {
+
+    .box-icone {
+      padding: 20px;
+      text-align: center;
       background-color: #ff7b02;
+    }
+
+    .galleriaicone {
+      background-color: #ffd8b4;
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       gap: 20px;
@@ -666,7 +673,7 @@
 
     .itemicone {
       font-family:sans-serif;
-      background: #ffffff;
+      background:  #ffd8b4;
       border: 4px solid #000;      
       border-radius: 8px;          
       box-shadow: 0 4px 12px rgba(0,0,0,0.2); 
