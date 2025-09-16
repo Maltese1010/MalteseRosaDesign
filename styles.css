@@ -239,18 +239,22 @@
     }
 
     .elenco-stilizzato {
-      list-style: disc inside;
+      list-style: none;
       padding: 0;
-      margin-top: 30px;     
-      font-size: 20px;          
-      line-height: 1.8;
-      max-width: 400px;
-      text-align: center;
-    }
+  margin-top: 30px;     
+  font-size: 20px;          
+  line-height: 1.8;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;  /* centra il blocco lista nel box */
+  text-align: left;    /* allinea il testo a sinistra */
+}
 
     .elenco-stilizzato li {
-      margin-bottom: 12px;
-      color: #ffffff;
+     margin-bottom: 12px;
+     color: #ffffff;
+     position: relative;
+     padding-left: 1.2em;
     }
 
     .elenco-stilizzato li::before {
