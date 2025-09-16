@@ -318,9 +318,8 @@
 
     .contenitore3 {
       background-color: #a0bca7;
-      border-top: 5%;
-      border-bottom: 5%;
-      padding: 50px 15px;
+      padding-top: 5%;
+      padding-bottom: 5%;
     }
 
     .galleria {
