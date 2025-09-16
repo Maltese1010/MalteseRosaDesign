@@ -612,7 +612,8 @@
       transform: translateY(-2px);
       box-shadow: 0 6px 18px #c86100;
     }
-        .box-icone {
+
+    .box-icone {
       padding: 20px;
       text-align: center;
       background-color: #a5b586;
@@ -649,6 +650,8 @@
     .itemicone p {
       margin-top: 10px;
       font-size: 25px;
+      display: inline-block;
+      text-align: center;
     }
 
     .itemicone p a {
@@ -658,7 +661,7 @@
     }
 
     .itemicone p a:hover {
-       ext-decoration: underline;
+       text-decoration: underline;
     }
 
      .box-contatti {
@@ -707,7 +710,7 @@
     }
 
     .itemcontatti p a:hover {
-       ext-decoration: underline;
+      text-decoration: underline;
     }
 
     </style>
