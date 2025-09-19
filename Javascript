@@ -1,3 +1,5 @@
+"use strict";
+
 document.querySelectorAll('.navbar a').forEach(anchor => {
   anchor.addEventListener('click', function (e) {
     e.preventDefault(); // Evita il salto immediato
