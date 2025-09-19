@@ -709,10 +709,17 @@
       background: #ff7b02;
       color: white;
       border: none;
-      padding: 12px;
+      padding: 12px 16px;
       border-radius: 50%;
       cursor: pointer;
-      display: none;
+      display: none;   /* di default nascosto */
       font-size: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      transition: all 0.3s ease;
+    }
+
+    #scrollTopBtn:hover {
+      background: #e86c00;
+      transform: translateY(-3px);
     }
     </style>
