@@ -816,6 +816,27 @@
       text-decoration: underline;
     }
    
+    @media (max-width: 768px) {
+  .galleriaicone,
+  .galleriacontatti {
+    grid-template-columns: 1fr; 
+    gap: 20px; /
+  }
+
+  .itemicone img,
+  .itemcontatti img {
+    width: 60%;        
+    max-width: 200px;  
+    margin: 0 auto;    
+  }
+
+  .itemicone p,
+  .itemcontatti p {
+    font-size: 18px;  
+    margin-top: 10px;
+  }
+}
+
     @media (max-width: 480px) {
   h1 {
     font-size: 28px;
