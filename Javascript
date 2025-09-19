@@ -6,3 +6,20 @@ document.querySelectorAll('.navbar a').forEach(anchor => {
     target.scrollIntoView({ behavior: 'smooth' }); // Scorrimento fluido
   });
 });
+
+const scrollBtn = document.createElement("button");
+scrollBtn.innerText = "⬆";
+scrollBtn.id = "scrollTopBtn";
+document.body.appendChild(scrollBtn);
+
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 300) {
+    scrollBtn.style.display = "block";
+  } else {
+    scrollBtn.style.display = "none";
+  }
+});
+
+scrollBtn.addEventListener("click", () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+});
