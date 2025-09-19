@@ -707,64 +707,63 @@
 }
 
 
-    .galleriaicone {
-      background-color:#a5b586;
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 20px;
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 10px;
-      box-sizing: border-box;
-    }
+   .galleriaicone {
+  background-color:#a5b586;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 icone in fila */
+  gap: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 10px;
+  box-sizing: border-box;
+}
 
-    .itemicone {
-      font-family:sans-serif;
-      background:  #a5b586;
-      display: flex;            
-      flex-direction: column;     
-      align-items: center;                  
-    }
-    
-    .itemicone img {
-      width: 80%;                
-      aspect-ratio: 1 / 1;      
-      object-fit: cover;
-      display: block;
-      margin: 0 auto;           
-      border-radius: 50px;       
-      border: 3px solid #000;    
-      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-    }
-    
-    .itemicone p {
-      margin-top: 10px;
-      font-size: 20px;
-      text-align: center;
-    }
+.itemicone {
+  font-family:sans-serif;
+  background: #a5b586;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-    .itemicone p a {
-      color: rgb(0, 0, 0);         
-      text-decoration: none; 
-      font-weight: bold; 
-      display:block; 
-      width:max-content;       
-      margin-inline:auto; 
-    }
+.itemicone img {
+  width: 150px;         /* dimensione fissa */
+  height: 150px;        /* quadrato */
+  object-fit: contain;  /* l’immagine resta proporzionata */
+  border-radius: 20px;
+  border: 2px solid #000;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
 
-    .itemicone p a:hover {
-       text-decoration: underline;
-    }
+.itemicone p {
+  margin-top: 10px;
+  font-size: 20px;
+  text-align: center;
+}
 
+.itemicone p a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.itemicone p a:hover {
+  text-decoration: underline;
+}
+
+/* --- VERSIONE MOBILE --- */
 @media (max-width: 768px) {
-  .galleriaicone,
-  .galleriacontatti {
-    grid-template-columns: 1fr;
-    gap: 15px;
+  .galleriaicone {
+    grid-template-columns: 1fr; /* una sotto l’altra */
   }
 
-  .itemcontatti p {
-    font-size: 20px;
+  .itemicone img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .itemicone p {
+    font-size: 18px;
   }
 }
 
