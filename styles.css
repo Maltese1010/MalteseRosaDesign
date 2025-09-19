@@ -456,11 +456,7 @@
       object-fit: cover;
     }
     
-    .contenitore4 {
-      background-color: #f1fff1;
-      padding: 50px 15px;
-    }
-
+    
     .map-container {
       text-align: center;
       margin-top: 50px;
@@ -497,9 +493,9 @@
       }
     }
 
-    h1 {
-      font-size: 36px;
-      margin-bottom: 40px;
+    .contenitore4 {
+      background-color: #f1fff1;
+      padding: 50px 15px;
     }
 
     .colonna2 {
