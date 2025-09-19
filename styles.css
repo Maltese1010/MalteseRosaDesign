@@ -101,6 +101,22 @@
       text-align: center;
     }
     
+    @media (max-width: 768px) {
+  .navbar ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar li {
+    width: 100%;
+    margin: 5px 0;
+  }
+
+  .bottone {
+    font-size: 20px;
+    padding: 15px 0;
+  }
+}
     .titolo1{
       color: #000000;
       font-size: 50px;
@@ -160,21 +176,24 @@
       line-height: 1.5;
     }
     
-    @media (max-width: 600px) {
-      .contenitore1 {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-      }
-      .contenitore1 img {
-        width: 100%;
-        height: auto;
-        margin-bottom: 0%;
-      }
-      .text-box {
-        width: 100%;
-      }
-    }
+    @media (max-width: 768px) {
+  .contenitore1 {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .contenitore1 img {
+    width: 90%;
+    height: auto;
+    margin: 0 auto 20px auto;
+  }
+
+  .text-box {
+    width: 90%;
+    margin: 0 auto;
+    padding: 15px;
+  }
+}
 
     .contenitore2totale {
       width: 100%;
@@ -265,25 +284,26 @@
       line-height: 1;
     }
 
-  @media (max-width: 768px) {
-    .contenitore2totale {
-      flex-wrap: wrap;       
-      flex-direction: column;
-    }
-    .contenitore2-1,
-    .contenitore2-2,
-    .contenitore2-3 {
-      width: 100%;           
-      min-height: auto;     
-      align-items: center;  
-      text-align: center;
-    }
-    .contenitore2-1 p,
-    .contenitore2-2 p,
-    .elenco-stilizzato {
-      text-align: center;    
-    }
+     @media (max-width: 768px) {
+  .contenitore2totale {
+    display: flex;
+    flex-direction: column;
   }
+
+  .contenitore2-1,
+  .contenitore2-2,
+  .contenitore2-3 {
+    width: 100%;
+    min-height: auto;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .elenco-stilizzato {
+    text-align: center;
+    max-width: 90%;
+  }
+}
 
     .contenitoreecodesign {
       background-color: #ffffff;
@@ -362,17 +382,22 @@
       color: #000000;
     }
 
-    @media (max-width: 900px) {
-      .galleria {
-        grid-template-columns: repeat(2, 1fr);
-      }
-    }
+   @media (max-width: 768px) {
+  .galleria {
+    grid-template-columns: 1fr;
+  }
 
-    @media (max-width: 600px) {
-      .galleria {
-        grid-template-columns: 1fr;
-      }
-    }
+  .item {
+    width: 90%;
+    margin: 0 auto;
+    height: auto;
+  }
+
+  .item img {
+    width: 100%;
+    height: auto;
+  }
+}
 
     .split-container1 {
       display: flex;
@@ -456,7 +481,34 @@
       object-fit: cover;
     }
     
-    
+    @media (max-width: 768px) {
+  .split-container1,
+  .split-container2 {
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+  }
+
+  .text-section1 h1,
+  .text-section2 h1 {
+    transform: none; /* niente testo ruotato su mobile */
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+
+  .text-section1,
+  .text-section2 {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .image-section1,
+  .image-section2 {
+    width: 100%;
+    height: auto;
+  }
+}
+
     .map-container {
       text-align: center;
       margin-top: 50px;
@@ -486,12 +538,12 @@
       display: block;
     }
 
-    @media (max-width: 650px) {
-      .map-container iframe {
-        width: 90%;
-        height: 300px;
-      }
-    }
+    @media (max-width: 768px) {
+  .map-container iframe {
+    width: 100%;
+    height: 300px;
+  }
+}
 
     .contenitore4 {
       background-color: #f1fff1;
@@ -599,6 +651,18 @@
       text-align: center;
       background-color: #a5b586;
     }
+    @media (max-width: 768px) {
+  .form {
+    width: 95%;
+    padding: 15px;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+    font-size: 16px;
+  }
+}  
 
     .galleriaicone {
       background-color:#a5b586;
@@ -649,6 +713,18 @@
        text-decoration: underline;
     }
 
+@media (max-width: 768px) {
+  .galleriaicone,
+  .galleriacontatti {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .itemcontatti p {
+    font-size: 20px;
+  }
+}
+
      .box-contatti {
       padding: 25px;
       text-align: center;
@@ -697,6 +773,21 @@
     .itemcontatti p a:hover {
       text-decoration: underline;
     }
+   
+    @media (max-width: 480px) {
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  p {
+    font-size: 16px;
+    max-width: 90%;
+  }
+}
 
     #scrollTopBtn {
       position: fixed;
