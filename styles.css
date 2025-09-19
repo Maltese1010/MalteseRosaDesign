@@ -330,6 +330,22 @@
       object-fit: contain;   
     }
 
+    @media (max-width: 768px) {
+  .contenitoreecodesign {
+    height: auto;
+    padding: 20px;
+  }
+
+  .contenitoreecodesign img {
+    max-width: 90%; 
+    height: auto;   
+  }
+
+  .titoloecodesign h1 {
+    font-size: 28px;
+    text-align: center;
+  }
+}
     .titolo2{
       color:#000000;
       font-size: 50px;
@@ -491,7 +507,7 @@
 
   .text-section1 h1,
   .text-section2 h1 {
-    transform: none; /* niente testo ruotato su mobile */
+    transform: none; 
     font-size: 2rem;
     margin-bottom: 10px;
   }
