@@ -316,7 +316,7 @@
       overflow: hidden;
     }
 
-    .titoloecodesig {
+    .titoloecodesign {
       color: #85a492;
       font-size: 50px;
       font-weight: bold;     
@@ -706,25 +706,6 @@
   }
 }
 
-  input,
-  textarea {
-    width: 100%;
-    font-size: 14px;
-    padding: 12px 14px;
-    border-radius: 15px;
-  }
-
-  textarea {
-    min-height: 100px;
-  }
-
-  button {
-    width: 100%;
-    font-size: 18px;
-    padding: 12px;
-    margin-top: 15px;
-  }
-}
 
     .galleriaicone {
       background-color:#a5b586;
@@ -775,7 +756,17 @@
        text-decoration: underline;
     }
 
+@media (max-width: 768px) {
+  .galleriaicone,
+  .galleriacontatti {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
 
+  .itemcontatti p {
+    font-size: 20px;
+  }
+}
 
      .box-contatti {
       padding: 25px;
