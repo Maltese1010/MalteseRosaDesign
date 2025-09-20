@@ -5,7 +5,7 @@ document.querySelectorAll('.navbar a').forEach(anchor => {
     e.preventDefault(); 
     const targetId = this.getAttribute('href'); 
     const target = document.querySelector(targetId);
-    target.scrollIntoView({ behavior: 'smooth' }); // Scorrimento fluido
+    target.scrollIntoView({ behavior: 'smooth' }); 
   });
 });
 
