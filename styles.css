@@ -850,7 +850,7 @@
       border-radius:8px;
       cursor: pointer;
       display: none;   
-      font-size: 20px;
+      font-size: 25px;
       box-shadow: 0 4px 12px rgba(0,0,0,0.2);
       transition: all 0.3s ease;
     }
@@ -861,12 +861,13 @@
     }
 
 @media (max-width: 768px) {
-  body {
-    padding-bottom: 80px; 
-  }
-
   #scrollTopBtn {
-    bottom: 40px; 
+    width: 60px;        
+    height: 60px;        
+    font-size: 18px;     
+    border-radius: 50%;  
+    bottom: 40px;        
+    right: 20px;        
   }
 }
     </style>
