@@ -865,7 +865,7 @@
     width: 60px;        
     height: 60px;        
     font-size: 18px;     
-    border-radius: 50%;  
+    border-radius: 8px;  
     bottom: 40px;        
     right: 20px;        
   }
