@@ -753,20 +753,6 @@
   text-decoration: underline;
 }
 
-@media (max-width: 768px) {
-  .galleriaicone {
-    grid-template-columns: 1fr;
-  }
-
-  .itemicone img {
-    width: 120px;
-    height: 120px;
-  }
-
-  .itemicone p {
-    font-size: 18px;
-  }
-}
 
      .box-contatti {
       padding: 25px;
