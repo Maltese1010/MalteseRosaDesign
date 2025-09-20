@@ -101,7 +101,7 @@
       text-align: center;
     }
     
-    @media (max-width: 768px) {
+@media (max-width: 768px) {
   .navbar ul {
     flex-direction: column;
     align-items: center;
@@ -176,7 +176,7 @@
       line-height: 1.5;
     }
     
-    @media (max-width: 768px) {
+@media (max-width: 768px) {
   .contenitore1 {
     flex-direction: column;
     text-align: center;
@@ -284,7 +284,7 @@
       line-height: 1;
     }
 
-     @media (max-width: 768px) {
+@media (max-width: 768px) {
   .contenitore2totale {
     display: flex;
     flex-direction: column;
@@ -330,7 +330,7 @@
       object-fit: contain;   
     }
 
-    @media (max-width: 768px) {
+@media (max-width: 768px) {
   .contenitoreecodesign {
     height: auto;
     padding: 20px;
@@ -398,7 +398,7 @@
       color: #000000;
     }
 
-   @media (max-width: 768px) {
+@media (max-width: 768px) {
   .galleria {
     grid-template-columns: 1fr;
   }
@@ -497,7 +497,7 @@
       object-fit: cover;
     }
     
-    @media (max-width: 768px) {
+@media (max-width: 768px) {
   .split-container1,
   .split-container2 {
     flex-direction: column;
@@ -554,7 +554,7 @@
       display: block;
     }
 
-    @media (max-width: 768px) {
+  @media (max-width: 768px) {
       .map-container iframe {
         width: 100%;
         height: 300px;
@@ -668,7 +668,7 @@
       background-color: #a5b586;
     }
    
-     @media (max-width: 768px) {
+@media (max-width: 768px) {
   .form {
     width: 95%;
     padding: 15px;
@@ -817,7 +817,7 @@
       text-decoration: underline;
     }
    
-    @media (max-width: 768px) {
+@media (max-width: 768px) {
   .galleriaicone,
   .galleriacontatti {
     grid-template-columns: 1fr; 
@@ -838,7 +838,7 @@
   }
 }
 
-    @media (max-width: 480px) {
+@media (max-width: 480px) {
   h1 {
     font-size: 28px;
   }
