@@ -847,7 +847,7 @@
       color: white;
       border: none;
       padding: 12px 16px;
-      border-radius: 50%;
+      border-radius:8px;
       cursor: pointer;
       display: none;   
       font-size: 20px;
