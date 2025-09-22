@@ -826,7 +826,7 @@
   .galleriaicone,
   .galleriacontatti {
     grid-template-columns: 1fr; 
-    gap: 20px; /
+    gap: 20px;
   }
 
   .itemicone img,
@@ -834,6 +834,9 @@
     width: 60%;        
     max-width: 200px;  
     margin: 0 auto;    
+    aspect-ratio: 4 / 5;   
+    object-fit: cover;     
+    display: block;
   }
 
   .itemicone p,
