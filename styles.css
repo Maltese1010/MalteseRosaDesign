@@ -305,7 +305,7 @@
   }
 }
 
-    .contenitoreecodesign {
+   .contenitoreecodesign {
   background-color: #ffffff;
   width: 100%;
   height: 600px;
@@ -314,6 +314,7 @@
   justify-content: center;   
   align-items: center;     
   overflow: hidden;
+  box-sizing: border-box; 
 }
 
 .titoloecodesign {
@@ -335,11 +336,14 @@
 @media (max-width: 768px) {
   .contenitoreecodesign {
     height: auto;
+    width: 100%;            
     padding: 20px;
+    box-sizing: border-box; 
+    overflow-x: hidden;     
   }
 
   .contenitoreecodesign img {
-    max-width: 100%;  
+    max-width: 100%;   
     height: auto;      
     display: block;    
     margin: 0 auto;   
@@ -348,9 +352,9 @@
   .titoloecodesign {
     font-size: 28px;   
     text-align: center;
+    word-wrap: break-word; 
   }
 }
-
     .titolo2{
       color:#000000;
       font-size: 50px;
@@ -505,12 +509,12 @@
 @media (max-width: 768px) {
   .split-container1,
   .split-container2 {
-    flex-direction: column;   /* impila testo e immagine */
+    flex-direction: column;   
     height: auto;
     width: 100%;
-    margin: 0;                /* elimina margini extra */
-    padding: 0;               /* evita che il padding allarghi il contenitore */
-    box-sizing: border-box;   /* padding incluso nella width */
+    margin: 0;                
+    padding: 0;               
+    box-sizing: border-box;   
   }
 
   .text-section1 h1,
