@@ -505,9 +505,12 @@
 @media (max-width: 768px) {
   .split-container1,
   .split-container2 {
-    flex-direction: column;
+    flex-direction: column;   /* impila testo e immagine */
     height: auto;
     width: 100%;
+    margin: 0;                /* elimina margini extra */
+    padding: 0;               /* evita che il padding allarghi il contenitore */
+    box-sizing: border-box;   /* padding incluso nella width */
   }
 
   .text-section1 h1,
@@ -521,12 +524,23 @@
   .text-section2 {
     width: 100%;
     padding: 20px;
+    box-sizing: border-box;   
   }
 
   .image-section1,
   .image-section2 {
     width: 100%;
     height: auto;
+    padding: 0;               
+  }
+
+  .image-section1 img,
+  .image-section2 img {
+    max-width: 100%;          
+    width: 100%;             
+    height: auto;             
+    display: block;           
+    margin: 0 auto;          
   }
 }
 
