@@ -706,12 +706,12 @@
 }
 
 .map-container iframe {
-  width: 100%;          /* sempre tutta la larghezza */
-  max-width: 1100px;    /* non più largo di 1100px */
-  height: 350px;        /* più alto su desktop */
+  width: 100%;          
+  max-width: 1100px;    
+  height: 350px;        
   border: 0;
   display: block;
-  margin: 0 auto;       /* centrato */
+  margin: 0 auto;       
 }
 
 .map-container p {
@@ -719,7 +719,7 @@
 }
 
 .map-container a {
-  color: blue;          /* puoi personalizzare */
+  color: blue;          
   text-decoration: underline;
   transition: color 0.2s ease;
 }
@@ -728,7 +728,6 @@
   color: darkblue;
 }
 
-/* versione per telefono */
 @media (max-width: 768px) {
   .map-container {
     width: 100%;            
@@ -738,7 +737,7 @@
 
   .map-container iframe {
     width: 100%;            
-    height: 300px;           /* più proporzionato su mobile */
+    height: 300px;           
   }
 
   .map-container h1 {
@@ -790,6 +789,22 @@
   text-decoration: underline;
 }
 
+
+@media (max-width: 768px) {
+  .galleriaicone {
+    grid-template-columns: 1fr; 
+    max-width: 100%;           
+  }
+
+  .itemicone img {
+    width: 120px;   
+    height: 120px;
+  }
+
+  .itemicone p {
+    font-size: 18px; 
+  }
+}
 
      .box-contatti {
       padding: 25px;
